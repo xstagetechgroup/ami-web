@@ -1,2 +1,2 @@
 # ami-web
-Site para empresa ami
+Site para empresa Assossiação de Mulheres Instruídas
