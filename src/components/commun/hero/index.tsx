@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import Container from '../shared/container';
 import { Search } from 'lucide-react';
+import Container from '@/components/shared/container';
 
 const HeroSection: React.FC = () => {
     return (

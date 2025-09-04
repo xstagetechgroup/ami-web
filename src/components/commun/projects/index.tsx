@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from '../shared/container';
 import Image from 'next/image';
+import Container from '@/components/shared/container';
 
 // import { Container } from './styles';
 

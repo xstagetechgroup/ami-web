@@ -1,7 +1,9 @@
-import GallerySection from "@/components/gallery";
-import HeroSection from "@/components/hero";
-import ProjectsSection from "@/components/projects";
-import WhoWeAre from "@/components/WhoWeAre";
+import Association from "@/components/commun/assoction";
+import EquipeSection from "@/components/commun/equipeSection";
+import GallerySection from "@/components/commun/gallery";
+import HeroSection from "@/components/commun/hero";
+import ProjectsSection from "@/components/commun/projects";
+import WhoWeAre from "@/components/commun/WhoWeAre";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <WhoWeAre />
       <ProjectsSection />
+      <Association />
+      <EquipeSection />
       <GallerySection />
     </div>
   );
