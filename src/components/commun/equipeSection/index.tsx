@@ -15,10 +15,7 @@ export default function EquipeSection() {
                         height={1000}
                         className='object-cover w-full h-full object-center rounded-br-[100px]'
                     />
-
-
                 </div>
-
                 {/* Texto */}
                 <div className=" pr-72 relative">
                     {/* Box com título sobreposto */}
