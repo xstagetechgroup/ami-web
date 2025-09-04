@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
                     <ul className='hidden lg:flex font-semibold text-gray-700 flex-row items-center gap-10 text-base'>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/'}>Home</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/sobre'}>Quem Somos</Link></li>
-                        <li className='hover:text-primaryColor duration-200'><Link href={'/projectos'}>Projectos</Link></li>
+                        <li className='hover:text-primaryColor duration-200'><Link href={'#projectos'}>Projectos</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/conheca'}>Conheça a Associação</Link></li>
                         <div className='flex gap-2 items-center'>
                             <Link href={'/login'} className='capitalize font-bold bg-primaryColor px-7 py-2 rounded-sm hover:bg-white border-2 border-primaryColor group duration-200'>
