@@ -1,4 +1,5 @@
 import Association from "@/components/commun/assoction";
+import ComunidadeSection from "@/components/commun/ComunidadeSection";
 import EquipeSection from "@/components/commun/equipeSection";
 import GallerySection from "@/components/commun/gallery";
 import HeroSection from "@/components/commun/hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <Association />
       <EquipeSection />
       <GallerySection />
+      <ComunidadeSection />
     </div>
   );
 }

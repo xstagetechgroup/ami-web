@@ -7,7 +7,7 @@ export default function AssociactionSection() {
 
         <div className="bg-gray-400/10">
             <Container>
-                <section className="relative flex flex-col md:flex-row  border-gray-300 items-center md:items-start gap-8 px-6 md:px-16 py-12">
+                <section className="relative flex flex-col md:flex-row  border-gray-300 items-center md:items-start gap-8 px-0 md:px-16 py-12">
                     {/* Texto */}
                     <div className="flex-1">
                         <h2 className="text-primaryColor font-extrabold text-2xl mb-4 uppercase">
@@ -44,7 +44,7 @@ export default function AssociactionSection() {
                             <Image src={'/assets/gallery/9.jpg'} alt='Association Image' width={500} height={1000} className='object-cover object-center w-[500px] h-[400px] rounded-lg mt-4' />
                             {/* Overlay com botão play */}
                             <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                                <button className="flex items-center justify-center w-16 h-16 rounded-full bg-white text-pink-600 shadow-lg hover:scale-105 transition">
+                                <button className="flex items-center justify-center w-16 h-16 rounded-full bg-white text-primaryColor shadow-lg hover:scale-105 transition animate-zoom-in-out">
                                     <Play size={32} fill="currentColor" />
                                 </button>
                             </div>
