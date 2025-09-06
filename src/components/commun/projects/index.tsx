@@ -20,7 +20,7 @@ const ProjectsSection: React.FC = () => {
                     </div>
 
                     <div className='flex flex-col gap-4 justify-start'>
-                        <h1 className='text-3xl text-primaryColor uppercase text-start font-bold'>Projectos</h1>
+                        <h1 className='text-primaryColor uppercase text-start font-extrabold text-3xl'>Projectos</h1>
                         <p className='text-justify text-gray-800 text-base font-normal'>We believe in produce. Tasty produce. Produce like:
                             <br />
                             <br />

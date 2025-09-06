@@ -61,10 +61,10 @@ export default function GallerySection() {
                 <div className="flex-1 px-4 md:px-10">
                     {/* Título */}
                     <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mb-8 md:mb-10 md:absolute md:top-5 md:left-10">
-                        <div className="bg-white shadow-md text-primaryColor py-3 px-6 font-bold text-base md:text-lg rounded-lg">
+                        <div className="bg-white md:shadow-md text-primaryColor py-3 md:px-6 font-extrabold text-3xl rounded-lg">
                             GALERIA
                         </div>
-                        <p className="text-sm md:text-lg text-gray-800 max-w-xl">
+                        <p className="text-sm font-medium md:text-lg text-gray-800 max-w-xl">
                             Todos os momentos são importantes para nós, vem fazer parte desta
                             história também.
                         </p>

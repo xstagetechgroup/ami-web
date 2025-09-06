@@ -3,6 +3,7 @@ import ComunidadeSection from "@/components/commun/ComunidadeSection";
 import EquipeSection from "@/components/commun/equipeSection";
 import GallerySection from "@/components/commun/gallery";
 import HeroSection from "@/components/commun/hero";
+import PhraseComponent from "@/components/commun/phrase";
 import ProjectsSection from "@/components/commun/projects";
 import WhoWeAre from "@/components/commun/WhoWeAre";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <ProjectsSection />
       <Association />
       <EquipeSection />
+      <PhraseComponent />
       <GallerySection />
       <ComunidadeSection />
     </div>

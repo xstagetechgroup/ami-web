@@ -5,12 +5,12 @@ import { Play } from "lucide-react";
 export default function AssociactionSection() {
     return (
 
-        <div className="bg-gray-400/10">
+        <div className="w-full">
             <Container>
-                <section className="relative flex flex-col md:flex-row  border-gray-300 items-center md:items-start gap-8 px-0 md:px-16 py-12">
+                <section className="relative flex flex-col md:flex-row  border-gray-300 items-center md:items-start gap-8 px-0 py-12">
                     {/* Texto */}
-                    <div className="flex-1">
-                        <h2 className="text-primaryColor font-extrabold text-2xl mb-4 uppercase">
+                    <div className="flex-1 text-justify">
+                        <h2 className="text-primaryColor font-extrabold text-3xl mb-4 uppercase">
                             A Associação
                         </h2>
                         <p className="text-gray-700 leading-relaxed mb-4">
