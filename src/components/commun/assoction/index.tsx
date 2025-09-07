@@ -21,7 +21,7 @@ export default function AssociactionSection() {
     const localVideo = ""; // se você tiver um vídeo local
 
     return (
-        <div className="w-full">
+        <div className="w-full" id="association">
             <Container>
                 <section className="relative flex flex-col md:flex-row border-gray-300 items-center md:items-start gap-8 px-0 py-12">
                     {/* Texto */}

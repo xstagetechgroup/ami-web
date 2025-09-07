@@ -1,39 +1,38 @@
 // components/Footer.tsx
 import Image from "next/image";
-import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import Container from "../container";
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-20 pb-10">
       <Container>
-        <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
+        <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
           {/* Logo e endereço */}
           <div className="md:col-span-2">
             <div className="flex flex-col gap-2">
               <Image src="/assets/logo-white.png" alt="Logo" width={150} height={150} />
-              <p className="text-sm leading-6">
-                Main Building No. D1, Jl. Jogja-Solo, Kalasan, <br />
-                Special Region of Yogyakarta
+              <p className="text-sm w-full md:w-[60%]">
+                Mais de 200 mil mulheres Instruídas. Uma associação sem fins lucrativos liderada pela PCA Iracelma Almeida
               </p>
             </div>
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-5">
               <a
-                href="#"
+                href="https://www.facebook.com/mulheresinstruidas"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaFacebookF size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/associacaomulheresinstruidas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
-                <FaTwitter size={18} />
+                <FaInstagram size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@IracelmaAlmeida13"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaYoutube size={18} />
@@ -43,41 +42,26 @@ export default function Footer() {
 
           {/* Discover */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Discover</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">How it works</a></li>
-              <li><a href="#" className="hover:text-white">NiceHouse for business</a></li>
-              <li><a href="#" className="hover:text-white">Earn money</a></li>
-              <li><a href="#" className="hover:text-white">New users FAQ</a></li>
-            </ul>
+
           </div>
 
           {/* Company */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
+            <h3 className="text-white font-semibold mb-4">A Associação</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">About us</a></li>
-              <li><a href="#" className="hover:text-white">Careers</a></li>
-              <li><a href="#" className="hover:text-white">Terms & conditions</a></li>
-              <li><a href="#" className="hover:text-white">Blog</a></li>
-              <li><a href="#" className="hover:text-white">Contact us</a></li>
-              <li><a href="#" className="hover:text-white">Privacy policy</a></li>
-              <li><a href="#" className="hover:text-white">Investors</a></li>
+              <li><a href="#" className="hover:text-white">Quem Somos</a></li>
+              <li><a href="#" className="hover:text-white">Projetos</a></li>
+              <li><a href="#" className="hover:text-white">Conheça a Associação</a></li>
+              <li><a href="/contacto" className="hover:text-white">Contactos</a></li>
             </ul>
           </div>
 
           {/* Popular Categories */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Popular Categories</h3>
+            <h3 className="text-white font-semibold mb-4">Contactos</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">Handyman Services</a></li>
-              <li><a href="#" className="hover:text-white">Cleaning Services</a></li>
-              <li><a href="#" className="hover:text-white">Delivery Services</a></li>
-              <li><a href="#" className="hover:text-white">Removalists</a></li>
-              <li><a href="#" className="hover:text-white">Gardening Services</a></li>
-              <li><a href="#" className="hover:text-white">Automotive</a></li>
-              <li><a href="#" className="hover:text-white">Assembly Services</a></li>
-              <li><a href="#" className="hover:text-white">All Services</a></li>
+              <li>Whatsapp: <a href="#" className="hover:text-white">+244 912 345 678</a></li>
+              <li>Email: <a href="#" className="hover:text-white">geral@ami.org.ao</a></li>
             </ul>
           </div>
         </div>

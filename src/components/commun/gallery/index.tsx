@@ -31,7 +31,7 @@ const imagesRow2 = [
 
 export default function GallerySection() {
     return (
-        <section className="bg-white py-12 overflow-hidden">
+        <section className="bg-white py-12 overflow-hidden" id="gallery">
             <div className="w-full flex relative flex-col md:flex-row">
                 {/* Barra lateral */}
                 <div className="hidden md:flex flex-col items-center justify-center bg-primaryColor text-white px-10 py-20 rounded-r-lg relative">

@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function WhoWeAre() {
     return (
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-full flex flex-col items-center justify-center" id='team'>
 
             <div className="relative w-full flex items-center justify-center bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/assets/who-we-are.jpg')" }}>
 
