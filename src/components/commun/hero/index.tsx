@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
                         <h1 className='text-6xl font-bold text-primaryColor pt-40'>Transformar o <br /> mundo começa <br /> por instruir <br /> mulheres.</h1>
                         <div className='flex flex-col gap-4 w-full max-w-xl'>
                             <span>
-                                <p className='font-bold text-base sm:text-lg'>Junte-se a nós e nos ajude a ajudar</p>
+                                <p className='font-bold text-3xl md:text-3xl text-white md:text-black'>Junte-se a nós e nos ajude a ajudar</p>
                             </span>
 
                             {/* <div className='w-full flex flex-col sm:flex-row gap-4 sm:gap-5 items-start sm:items-center justify-between p-5 rounded-xl shadow-lg bg-white'>

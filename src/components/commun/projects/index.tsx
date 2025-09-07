@@ -11,12 +11,8 @@ const ProjectsSection: React.FC = () => {
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-6'>
 
                     <div data-aos="fade-right" className='flex flex-col justify-center items-center'>
-                        <Image src={'/assets/projects.jpg'} alt='Project Image' width={500} height={1000} className='object-cover object-center w-[500px] h-[600px] rounded-t-lg' />
-                        <div className='p-5 bg-white flex flex-col gap-0  w-[500px] rounded-b-lg shadow-md'>
-                            <p className='font-semibold'>Heirloom tomato</p>
-                            <p className='font-bold text-primaryColor'>Benfica, Luanda</p>
-                            <p className='text-sm text-gray-600 pt-2'>Grown in San Juan Capistrano, CA</p>
-                        </div>
+                        <Image src={'/assets/projects.jpg'} alt='Project Image' width={500} height={1000} className='object-cover object-center w-[500px] h-[600px] rounded-lg' />
+                        
                     </div>
 
                     <div data-aos="fade-left" data-aos-delay="300" className='flex flex-col gap-4 justify-start'>
