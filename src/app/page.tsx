@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-10">
       <HeroSection />
-      <WhoWeAre />
-      <ProjectsSection />
       <Association />
-      <EquipeSection />
+      <ProjectsSection />
+      <WhoWeAre />
+      {/* <EquipeSection /> */}
       <PhraseComponent />
       <GallerySection />
       <ComunidadeSection />
