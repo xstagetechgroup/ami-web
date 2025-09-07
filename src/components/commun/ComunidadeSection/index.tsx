@@ -10,7 +10,7 @@ const ComunidadeSection: FC = () => {
 
         >
             <Container>
-                <section className="relative w-full bg-white py-12 flex flex-col md:flex-row items-start justify-between">
+                <section className="relative w-full bg-white py-12 flex flex-col md:gap-5 md:flex-row items-start justify-between">
 
 
                     {/* Conteúdo lado esquerdo */}
