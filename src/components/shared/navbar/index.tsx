@@ -4,9 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import Container from '../container'
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { MdKeyboardArrowDown } from 'react-icons/md'
-import { Button } from '@/components/ui/button'
 
 const Navbar: React.FC = () => {
     const [menuOpen, setMenuOpen] = useState(false)

@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { Users, Flag, Clock, User } from "lucide-react";
 import Container from "@/components/shared/container";
 import Image from "next/image";
 

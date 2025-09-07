@@ -17,24 +17,12 @@ export default function AssociactionSection() {
                             We believe in produce. Tasty produce. Produce like:
                         </p>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            Apples. Oranges. Limes. Lemons. Guavas. Carrots. Cucumbers. Jicamas.
-                            Cauliflowers. Brussels sprouts. Shallots. Japanese eggplants.
-                            Asparagus. Artichokes—Jerusalem artichokes, too. Radishes. Broccoli.
-                            Baby broccoli. Broccolini. Bok choy. Scallions. Ginger. Cherries.
-                            Raspberries. Cilantro. Parsley. Dill.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptate vel non nesciunt laboriosam omnis laudantium eligendi commodi, tempora laborum sequi. Nisi tempore blanditiis ullam laborum ipsa quas? Saepe, molestias? 
                         </p>
                         <p className="text-gray-700 leading-relaxed">
                             What are we forgetting?
                             <br />
-                            Oh! Onions. Yams. Avocados. Lettuce. Arugula (to some, "rocket!").
-                            Persian cucumbers, in addition to aforementioned “normal” cucumbers.
-                            Artichokes. Zucchinis. Pumpkins. Squash (what some cultures call
-                            pumpkins). Sweet potatoes and potato-potatoes. Jackfruit. Monk fruit.
-                            Fruit of the Loom. Fruits of our labor (this website). Sorrel.
-                            Pineapple. Mango. Gooseberries. Blackberries. Tomatoes. Heirloom
-                            tomatoes. Beets. Chives. Corn. Endive. Escarole, which, we swear,
-                            we’re vendors of organic produce, but if you asked us to describe what
-                            escaroles are...
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rerum nesciunt dignissimos aliquid, fugit at dolor saepe porro similique suscipit modi nisi facere. Officiis explicabo nisi obcaecati at, ea illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rerum nesciunt dignissimos aliquid, fugit at dolor saepe porro similique suscipit modi nisi facere. Officiis explicabo nisi obcaecati at, ea illo!
                         </p>
                     </div>
 
