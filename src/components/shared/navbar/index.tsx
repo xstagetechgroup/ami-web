@@ -4,6 +4,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import Container from '../container'
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { MdKeyboardArrowDown } from 'react-icons/md'
+import { Button } from '@/components/ui/button'
 
 const Navbar: React.FC = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -27,13 +30,26 @@ const Navbar: React.FC = () => {
                         <li className='hover:text-primaryColor duration-200'><Link href={'/sobre'}>Quem Somos</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'#projectos'}>Projectos</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/conheca'}>Conheça a Associação</Link></li>
+                        <li className='hover:text-primaryColor duration-200'><Link href={'/contacto'}>Contacto</Link></li>
                         <div className='flex gap-2 items-center'>
-                            <Link href={'/login'} className='capitalize font-bold bg-primaryColor px-7 py-2 rounded-sm hover:bg-white border-2 border-primaryColor group duration-200'>
-                                <p className='duration-200 text-white group-hover:text-primaryColor'>Entrar</p>
-                            </Link>
-                            <Link href={'/login'} className='border-2 capitalize font-bold border-primaryColor px-7 py-2 rounded-sm hover:bg-primaryColor group duration-200'>
-                                <p className='duration-200 group-hover:text-white'>Cadastro</p>
-                            </Link>
+                            <DropdownMenu>
+                                <DropdownMenuTrigger className='outline-none'>
+                                    <span className='flex gap-2 items-center border capitalize bg-white text-black font-bold border-primaryColor px-4 py-1 rounded-sm hover:bg-primaryColor group duration-200'>
+                                        <p className='duration-200 group-hover:text-white'>Português</p>
+                                        <MdKeyboardArrowDown className='text-black' />
+                                    </span>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent>
+                                    <DropdownMenuItem className='flex gap-2 items-center py-2 pr-10 outline-none cursor-pointer'>
+                                        <Image src={'/assets/flags/angola.png'} className='rounded' alt='Português' width={20} height={20} />
+                                        <p>Português</p>
+                                    </DropdownMenuItem>
+                                    <DropdownMenuItem className='flex gap-2 items-center py-2 pr-10 outline-none cursor-pointer'>
+                                        <Image src={'/assets/flags/england.jpg'} className='rounded' alt='English' width={20} height={20} />
+                                        <p>English</p>
+                                    </DropdownMenuItem>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
                         </div>
                     </ul>
                 </div>
@@ -45,13 +61,26 @@ const Navbar: React.FC = () => {
                         <li><Link href='/sobre' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>QUEM SOMOS</Link></li>
                         <li><Link href='/projectos' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>PROJECTOS</Link></li>
                         <li><Link href='/conheca' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONHEÇA A ASSOCIAÇÃO</Link></li>
-                        <div className='w-full justify-center flex gap-2 items-center'>
-                            <Link href={'/login'} className='capitalize font-bold bg-primaryColor px-7 py-2 rounded-sm hover:bg-white border-2 border-primaryColor group duration-200'>
-                                <p className='duration-200 text-white group-hover:text-primaryColor'>Entrar</p>
-                            </Link>
-                            <Link href={'/login'} className='border-2 capitalize font-bold border-primaryColor px-7 py-2 rounded-sm hover:bg-primaryColor group duration-200'>
-                                <p className='duration-200 group-hover:text-white'>Cadastro</p>
-                            </Link>
+                        <li><Link href='/contacto' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONTACTO</Link></li>
+                        <div className='flex gap-2 items-center'>
+                            <DropdownMenu>
+                                <DropdownMenuTrigger className='outline-none'>
+                                    <span className='flex gap-2 items-center border capitalize font-bold border-primaryColor px-7 py-2 rounded-sm hover:bg-primaryColor group duration-200'>
+                                        <p className='duration-200 group-hover:text-white'>Português</p>
+                                        <MdKeyboardArrowDown className='text-black' />
+                                    </span>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent>
+                                    <DropdownMenuItem className='flex gap-2 items-center py-2 pr-10 outline-none cursor-pointer'>
+                                        <Image src={'/assets/flags/angola.png'} className='rounded' alt='Português' width={20} height={20} />
+                                        <p>Português</p>
+                                    </DropdownMenuItem>
+                                    <DropdownMenuItem className='flex gap-2 items-center py-2 pr-10 outline-none cursor-pointer'>
+                                        <Image src={'/assets/flags/england.jpg'} className='rounded' alt='English' width={20} height={20} />
+                                        <p>English</p>
+                                    </DropdownMenuItem>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
                         </div>
                     </ul>
                 )}

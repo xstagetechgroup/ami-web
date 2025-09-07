@@ -12,7 +12,7 @@ export default function EquipeSection() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
                     {/* Imagem */}
-                    <div className="relative  overflow-hidden -ml-2">
+                    <div data-aos="fade-right" className="relative  overflow-hidden -ml-2">
                         <Image
                             src={'/assets/gallery/14.jpg'}
                             alt='Association Image'
@@ -25,7 +25,7 @@ export default function EquipeSection() {
 
 
                     {/* Texto */}
-                    <div className=" flex flex-col justify-center gap-5">
+                    <div data-aos="fade-left" data-aos-delay="300" className=" flex flex-col justify-center gap-5">
                         {/* Box com título sobreposto */}
                         <h2 className="text-primaryColor font-extrabold text-3xl uppercase">
                             Faça Parte da Equipe

@@ -8,6 +8,7 @@ import PhraseComponent from "@/components/commun/phrase";
 import ProjectsSection from "@/components/commun/projects";
 import WhoWeAre from "@/components/commun/WhoWeAre";
 
+
 export default function Home() {
   return (
     <div className="flex flex-col gap-10">

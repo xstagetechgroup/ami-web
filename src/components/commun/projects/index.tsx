@@ -10,7 +10,7 @@ const ProjectsSection: React.FC = () => {
             <Container>
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-6'>
 
-                    <div className='flex flex-col justify-center items-center'>
+                    <div data-aos="fade-right" className='flex flex-col justify-center items-center'>
                         <Image src={'/assets/projects.jpg'} alt='Project Image' width={500} height={1000} className='object-cover object-center w-[500px] h-[600px] rounded-t-lg' />
                         <div className='p-5 bg-white flex flex-col gap-0  w-[500px] rounded-b-lg shadow-md'>
                             <p className='font-semibold'>Heirloom tomato</p>
@@ -19,7 +19,7 @@ const ProjectsSection: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-4 justify-start'>
+                    <div data-aos="fade-left" data-aos-delay="300" className='flex flex-col gap-4 justify-start'>
                         <h1 className='text-primaryColor uppercase text-start font-extrabold text-3xl'>Projectos</h1>
                         <p className='text-justify text-gray-800 text-base font-normal'>We believe in produce. Tasty produce. Produce like:
                             <br />

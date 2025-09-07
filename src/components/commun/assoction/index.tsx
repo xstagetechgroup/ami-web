@@ -9,7 +9,7 @@ export default function AssociactionSection() {
             <Container>
                 <section className="relative flex flex-col md:flex-row  border-gray-300 items-center md:items-start gap-8 px-0 py-12">
                     {/* Texto */}
-                    <div className="flex-1 text-justify">
+                    <div data-aos="fade-right" data-aos-delay="300" className="flex-1 text-justify">
                         <h2 className="text-primaryColor font-extrabold text-3xl mb-4 uppercase">
                             A Associação
                         </h2>
@@ -39,7 +39,7 @@ export default function AssociactionSection() {
                     </div>
 
                     {/* Vídeo */}
-                    <div className="flex-1 flex justify-center">
+                    <div data-aos="fade-left" className="flex-1 flex justify-center">
                         <div className="relative rounded-2xl overflow-hidden shadow-lg">
                             <Image src={'/assets/gallery/9.jpg'} alt='Association Image' width={500} height={1000} className='object-cover object-center w-[500px] h-[400px] rounded-lg mt-4' />
                             {/* Overlay com botão play */}

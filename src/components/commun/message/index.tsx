@@ -6,6 +6,7 @@ export default function MessageComponent() {
         <div className="w-full relative flex justify-center items-center py-20 md:h-[300px] lg:h-[550px]">
             {/* Imagem de fundo */}
             <Image
+                data-aos="zoom-in"
                 src={"/assets/message.png"}
                 alt="Association Image"
                 width={1000}

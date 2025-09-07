@@ -10,14 +10,14 @@ const HeroSection: React.FC = () => {
             <div className='w-full h-full bg-gradient-to-l from-gray-900 to-transparent z-20 md:hidden'></div>
             <div className='absolute top-0 w-full h-full z-20 flex items-center justify-center'>
                 <Container>
-                    <div className='w-full h-full flex flex-col gap-40 items-start justify-start'>
+                    <div data-aos="fade-right" className='w-full h-full flex flex-col gap-40 items-start justify-start'>
                         <h1 className='text-6xl font-bold text-primaryColor pt-40'>Transformar o <br /> mundo começa <br /> por instruir <br /> mulheres.</h1>
                         <div className='flex flex-col gap-4 w-full max-w-xl'>
                             <span>
                                 <p className='font-bold text-base sm:text-lg'>Junte-se a nós e nos ajude a ajudar</p>
                             </span>
 
-                            <div className='w-full flex flex-col sm:flex-row gap-4 sm:gap-5 items-start sm:items-center justify-between p-5 rounded-xl shadow-lg bg-white'>
+                            {/* <div className='w-full flex flex-col sm:flex-row gap-4 sm:gap-5 items-start sm:items-center justify-between p-5 rounded-xl shadow-lg bg-white'>
                                 <span>
                                     <p className='font-medium text-gray-400 text-sm sm:text-base'>O que está na sua lista de tarefas?</p>
                                     <p className='font-bold text-primaryColor text-sm sm:text-base'>Categoria</p>
@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
                                     <p className='font-medium text-gray-400 text-sm sm:text-base'>Localização</p>
                                     <Search className='text-primaryColor' />
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Container>
