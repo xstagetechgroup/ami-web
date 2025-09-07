@@ -18,7 +18,7 @@ export default function AssociactionSection() {
 
     // Exemplo: pode ser um link do YouTube ou caminho local
     const youtubeLink = "https://www.youtube.com/embed/t5UhljQoegI";
-    const localVideo = ""; // se você tiver um vídeo local
+    /* const localVideo = ""; */ // se você tiver um vídeo local
 
     return (
         <div className="w-full" id="association">

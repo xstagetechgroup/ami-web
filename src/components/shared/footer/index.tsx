@@ -1,6 +1,6 @@
 // components/Footer.tsx
 import Image from "next/image";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import Container from "../container";
 
 export default function Footer() {
