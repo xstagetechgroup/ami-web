@@ -6,7 +6,7 @@ import Container from '@/components/shared/container';
 
 const ProjectsSection: React.FC = () => {
     return (
-        <div className='w-full py-20' id='projects'>
+        <div className='w-full pb-10' id='projects'>
             <Container>
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-6'>
 

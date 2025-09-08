@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
                         <li><Link href='#projectos' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>PROJECTOS</Link></li>
                         <li><Link href='#conheca' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONHEÇA A ASSOCIAÇÃO</Link></li>
                         <li><Link href='/contacto' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONTACTO</Link></li>
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-2 items-center justify-center w-full'>
                             <DropdownMenu>
                                 <DropdownMenuTrigger className='outline-none'>
                                     <span className='flex gap-2 items-center border capitalize font-bold border-primaryColor px-7 py-2 rounded-sm hover:bg-primaryColor group duration-200'>

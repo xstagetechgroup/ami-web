@@ -23,7 +23,7 @@ export default function AssociactionSection() {
     return (
         <div className="w-full" id="association">
             <Container>
-                <section className="relative flex flex-col md:flex-row border-gray-300 items-center md:items-start gap-8 px-0 py-12">
+                <section className="relative flex flex-col md:flex-row border-gray-300 items-center md:items-start gap-8 px-0 pb-10">
                     {/* Texto */}
                     <div
                         data-aos="fade-right"
