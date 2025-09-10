@@ -14,7 +14,7 @@ const ComunidadeSection: FC = () => {
 
                     {/* Conteúdo lado esquerdo */}
                     <div data-aos="fade-right" className="flex-1 max-w-lg bg-cover bg-center rounded-xl">
-                        <div className="bg-white md:shadow-md rounded-lg md:px-6 py-3 w-full mb-6 inline-block">
+                        <div className="bg-white w-full mb-6 inline-block">
                             <h2 className="text-primaryColor font-extrabold text-3xl">COMUNIDADE</h2>
                         </div>
                         <p className="text-gray-600 mb-4">
