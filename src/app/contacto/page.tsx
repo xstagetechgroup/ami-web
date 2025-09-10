@@ -42,7 +42,7 @@ export default function ContactPage() {
                                 <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 912 345 678</p>
                             </div>
                             <Link href={'https://wa.me/244912345678'} className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col gap-2 justify-center items-center">
-                                <IoLogoWhatsapp className="size-12 text-primaryColor" />
+                                <IoLogoWhatsapp className="size-10 text-primaryColor" />
                                 <p className="font-bold text-lg pt-5">Whatsapp</p>
                                 <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 912 345 678</p>
                             </Link>
