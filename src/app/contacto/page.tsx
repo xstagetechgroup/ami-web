@@ -39,22 +39,22 @@ export default function ContactPage() {
                             <div className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col gap-0 justify-center items-center">
                                 <FaPhone className="size-10 text-primaryColor" />
                                 <p className="font-bold text-lg pt-5">Telemóvel</p>
-                                <p className="text-gray-700 font-medium">+244 912 345 678</p>
+                                <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 912 345 678</p>
                             </div>
                             <Link href={'https://wa.me/244912345678'} className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col gap-2 justify-center items-center">
                                 <IoLogoWhatsapp className="size-12 text-primaryColor" />
                                 <p className="font-bold text-lg pt-5">Whatsapp</p>
-                                <p className="text-gray-700 font-medium">+244 912 345 678</p>
+                                <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 912 345 678</p>
                             </Link>
                             <Link href={'mailto:geral@ami.org.ao'} className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col gap-2 justify-center items-center">
                                 <FaEnvelope className="size-10 text-primaryColor" />
                                 <p className="font-bold text-lg pt-5">Email</p>
-                                <p className="text-gray-700 font-medium">geral@ami.org.ao</p>
+                                <p className="text-gray-700 font-medium text-xs md:text-base text-center">geral@ami.org.ao</p>
                             </Link>
                             <div className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col gap-2 justify-center items-center">
                                 <FaMapMarkerAlt className="size-10 text-primaryColor" />
                                 <p className="font-bold text-lg pt-5">Localização</p>
-                                <p className="text-gray-700 font-medium">+244 912 345 678</p>
+                                <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 912 345 678</p>
                             </div>
                         </div>
                         {/* MAPA */}
