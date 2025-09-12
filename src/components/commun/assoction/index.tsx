@@ -34,21 +34,13 @@ export default function AssociactionSection() {
                             A Associação
                         </h2>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            We believe in produce. Tasty produce. Produce like:
+                            A Associação Mulheres Instruídas (AMI) é uma organização humanitária, filantrópica, sem fins lucrativos, apartidária e não governamental, criada em 2014 como movimento social de instrução e resiliência feminina.
                         </p>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                            voluptate vel non nesciunt laboriosam omnis laudantium eligendi
-                            commodi, tempora laborum sequi. Nisi tempore blanditiis ullam
-                            laborum ipsa quas? Saepe, molestias?
+                            Desde então, temos atuado em comunidades, mercados, escolas e estabelecimentos prisionais, alcançando milhares de mulheres e famílias em Angola. Em 2024, a associação foi legalmente constituída, consolidando a sua missão e ampliando a capacidade de servir.
                         </p>
                         <p className="text-gray-700 leading-relaxed">
-                            What are we forgetting?
-                            <br />
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                            rerum nesciunt dignissimos aliquid, fugit at dolor saepe porro
-                            similique suscipit modi nisi facere. Officiis explicabo nisi
-                            obcaecati at, ea illo!
+                            Hoje, a AMI afirma-se como uma verdadeira ferramenta de transformação, que atua no desenvolvimento emocional, pessoal, social e profissional, ajudando mulheres a ressignificar a dor, fortalecer valores de ética e cidadania e conquistar consciência do seu valor e do seu propósito.
                         </p>
                     </div>
 

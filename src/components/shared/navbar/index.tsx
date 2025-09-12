@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                         <li className='hover:text-primaryColor duration-200'><Link href={'/'}>Home</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'#association'}>Quem Somos</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'#projects'}>Projectos</Link></li>
-                        <li className='hover:text-primaryColor duration-200'><Link href={'#gallery'}>Galeria</Link></li>
+                        <li className='hover:text-primaryColor duration-200'><Link href={'/noticias'}>Notícias</Link></li>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/contacto'}>Contacto</Link></li>
                         <div className='flex gap-2 items-center'>
                             <DropdownMenu>
@@ -56,11 +56,11 @@ const Navbar: React.FC = () => {
                 {/* Menu mobile */}
                 {menuOpen && (
                     <ul className='lg:hidden flex flex-col gap-6 pb-6 text-center uppercase text-base'>
-                        <li><Link href='/' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>HOME</Link></li>
-                        <li><Link href='#sobre' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>QUEM SOMOS</Link></li>
-                        <li><Link href='#projectos' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>PROJECTOS</Link></li>
-                        <li><Link href='#conheca' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONHEÇA A ASSOCIAÇÃO</Link></li>
-                        <li><Link href='/contacto' onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONTACTO</Link></li>
+                        <li><Link href={'/'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>HOME</Link></li>
+                        <li><Link href={'#sobre'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>QUEM SOMOS</Link></li>
+                        <li><Link href={'#projectos'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>PROJECTOS</Link></li>
+                        <li><Link href={'/noticias'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>NOTÍCIAS</Link></li>
+                        <li><Link href={'/contacto'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>CONTACTO</Link></li>
                         <div className='flex gap-2 items-center justify-center w-full'>
                             <DropdownMenu>
                                 <DropdownMenuTrigger className='outline-none'>

@@ -17,15 +17,8 @@ const ComunidadeSection: FC = () => {
                         <div className="bg-white w-full mb-6 inline-block">
                             <h2 className="text-primaryColor font-extrabold text-3xl">COMUNIDADE</h2>
                         </div>
-                        <p className="text-gray-600 mb-4">
-                            We believe in produce. Tasty produce. Produce like:
-                        </p>
                         <p className="text-gray-700 leading-relaxed text-justify">
-                            Apples. Oranges. Limes. Lemons. Guavas. Carrots. Cucumbers. Jicamas.
-                            Cauliflowers. Brussels sprouts. Shallots. Japanese eggplants. Asparagus.
-                            Artichokes—Jerusalem artichokes, too. Radishes. Broccoli. Baby broccoli.
-                            Broccolini. Bok choy. Scallions. Ginger. Cherries. Raspberries. Cilantro.
-                            Parsley. Dill.
+                            A nossa comunidade é feita de histórias de superação, união e transformação. Em mais de 10 anos de atuação, a AMI já impactou mais de 200.000 mulheres em diferentes contextos — mercados, cadeias, escolas e comunidades — espalhando resiliência e esperança em Angola e além-fronteiras. Cada número reflete vidas tocadas e sonhos reconstruídos.
                         </p>
                     </div>
 
@@ -58,8 +51,9 @@ const ComunidadeSection: FC = () => {
                                         height={40}
                                     />
                                 </div>
-                                <h3 className="text-3xl font-bold text-primaryColor">03</h3>
-                                <p className="text-gray-600 text-base font-medium">Países impactados</p>
+                                <h3 className="text-3xl font-bold text-primaryColor">01</h3>
+                                <p className="text-gray-600 text-base font-medium">País impactado</p>
+                                <p>(Angola, com projeção <br /> internacional)</p>
                             </div>
                             {/* Card 3 */}
                             <div className="bg-white shadow-md rounded-2xl p-6 text-center">
@@ -71,8 +65,8 @@ const ComunidadeSection: FC = () => {
                                         height={40}
                                     />
                                 </div>
-                                <h3 className="text-3xl font-bold text-primaryColor">06Hrs</h3>
-                                <p className="text-gray-600 text-base font-medium">Horas de actividade</p>
+                                <h3 className="text-3xl font-bold text-primaryColor">10</h3>
+                                <p className="text-gray-600 text-base font-medium">Anos de actividade</p>
                             </div>
                             {/* Card 4 */}
                             <div className="bg-white shadow-md rounded-2xl p-6 text-center">
@@ -84,7 +78,7 @@ const ComunidadeSection: FC = () => {
                                         height={40}
                                     />
                                 </div>
-                                <h3 className="text-3xl font-bold text-primaryColor">16</h3>
+                                <h3 className="text-3xl font-bold text-primaryColor">13</h3>
                                 <p className="text-gray-600 text-base font-medium">Tamanho da equipa</p>
                             </div>
                         </div>
