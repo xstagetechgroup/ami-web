@@ -26,7 +26,7 @@ export default function Footer() {
                 <FaFacebookF size={18} />
               </a>
               <a
-                href="https://www.instagram.com/associacaomulheresinstruidas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                href="https://www.instagram.com/ami.ao?igsh=MTZuZnI4N3cweDZkaw=="
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaInstagram size={18} />
@@ -49,9 +49,9 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">A Associação</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">Quem Somos</a></li>
-              <li><a href="#" className="hover:text-white">Projetos</a></li>
-              <li><a href="#" className="hover:text-white">Conheça a Associação</a></li>
+              <li><a href="#sobre" className="hover:text-white">Quem Somos</a></li>
+              <li><a href="#projectos" className="hover:text-white">Projetos</a></li>
+              <li><a href="/noticias" className="hover:text-white">Notícias</a></li>
               <li><a href="/contacto" className="hover:text-white">Contactos</a></li>
             </ul>
           </div>
@@ -60,8 +60,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contactos</h3>
             <ul className="space-y-2 text-sm">
-              <li>Whatsapp: <a href="#" className="hover:text-white">+244 912 345 678</a></li>
-              <li>Email: <a href="#" className="hover:text-white">geral@ami.org.ao</a></li>
+              <li>Whatsapp: <a href="https://wa.me/244912345678" className="hover:text-white">+244 912 345 678</a></li>
+              <li>Email: <a href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</a></li>
             </ul>
           </div>
         </div>

@@ -25,7 +25,7 @@ export default function WhoWeAre() {
                             </div>
                             <div className='col-span-2 px-5 md:border-l h-full flex flex-col gap-5 justify-center items-start'>
                                 <h2 className="text-3xl font-bold text-white mb-4">Faça parte da equipe</h2>
-                                <p className='text-lg font-semibold text-justify text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, saepe harum. Odio aspernatur omnis veritatis numquam suscipit ea quae totam, aliquid fuga? Est veritatis id nobis voluptates. Debitis, recusandae magni.</p>
+                                <p className='text-lg font-semibold text-justify text-white'>Junte-se à AMI e faça parte de um movimento que transforma vidas. Aqui, cada ação é um passo para fortalecer mulheres, famílias e comunidades, construindo um futuro com mais resiliência, ética e propósito.</p>
                                 <Button className='bg-transparent text-white border-2 capitalize font-bold border-white px-7 py-2 rounded-sm hover:bg-primaryColor group duration-200'>
                                     <p className='duration-200 group-hover:text-white'>Ver Mais</p>
                                 </Button>
