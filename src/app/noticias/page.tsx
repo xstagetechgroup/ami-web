@@ -3,7 +3,7 @@ import Container from "@/components/shared/container";
 import Link from "next/link";
 import React, { useState } from "react";
 import { newsData } from "@/utils/news";
-import { Loader2 } from "lucide-react"; // ícone de loading do lucide
+import { Loader2 } from "lucide-react";
 import Image from "next/image";
 
 const Noticias: React.FC = () => {
