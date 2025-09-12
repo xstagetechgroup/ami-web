@@ -1,9 +1,10 @@
 "use client";
 import Container from "@/components/shared/container";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { newsData } from "@/utils/news";
 import { Loader2 } from "lucide-react"; // ícone de loading do lucide
+import Image from "next/image";
 
 const Noticias: React.FC = () => {
     const [selectedCategory, setSelectedCategory] = useState<string>("Todos");
@@ -83,10 +84,12 @@ const Noticias: React.FC = () => {
                                     >
                                         {/* Imagem */}
                                         <div className="h-40 w-full overflow-hidden">
-                                            <img
+                                            <Image
                                                 src={news.images[0]}
                                                 alt={news.title}
                                                 className="w-full h-full object-cover hover:scale-105 transition duration-300"
+                                                width={500}
+                                                height={300}
                                             />
                                         </div>
 

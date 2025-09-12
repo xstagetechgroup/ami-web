@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import Container from "../container";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -19,24 +20,24 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-5">
-              <a
+              <Link
                 href="https://www.facebook.com/mulheresinstruidas"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaFacebookF size={18} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.instagram.com/ami.ao?igsh=MTZuZnI4N3cweDZkaw=="
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaInstagram size={18} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.youtube.com/@IracelmaAlmeida13"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaYoutube size={18} />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -49,10 +50,10 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">A Associação</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#sobre" className="hover:text-white">Quem Somos</a></li>
-              <li><a href="#projectos" className="hover:text-white">Projetos</a></li>
-              <li><a href="/noticias" className="hover:text-white">Notícias</a></li>
-              <li><a href="/contacto" className="hover:text-white">Contactos</a></li>
+              <li><Link href="#sobre" className="hover:text-white">Quem Somos</Link></li>
+              <li><Link href="#projectos" className="hover:text-white">Projetos</Link></li>
+              <li><Link href="/noticias" className="hover:text-white">Notícias</Link></li>
+              <li><Link href="/contacto" className="hover:text-white">Contactos</Link></li>
             </ul>
           </div>
 
@@ -60,8 +61,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contactos</h3>
             <ul className="space-y-2 text-sm">
-              <li>Whatsapp: <a href="https://wa.me/244912345678" className="hover:text-white">+244 912 345 678</a></li>
-              <li>Email: <a href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</a></li>
+              <li>Whatsapp: <Link href="https://wa.me/244912345678" className="hover:text-white">+244 912 345 678</Link></li>
+              <li>Email: <Link href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</Link></li>
             </ul>
           </div>
         </div>

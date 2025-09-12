@@ -121,10 +121,12 @@ export default function Noticias({ params }: NoticePageProps) {
                                     key={item.id}
                                     className="bg-white rounded-lg shadow hover:shadow-md transition duration-300 overflow-hidden"
                                 >
-                                    <img
+                                    <Image
                                         src={item.images[0]}
                                         alt={item.title}
                                         className="w-full h-52 object-cover object-center"
+                                        width={500}
+                                        height={300}
                                     />
                                     <div className="p-4">
                                         <span className="text-xs text-primaryColor font-semibold">
