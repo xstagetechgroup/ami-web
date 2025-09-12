@@ -41,11 +41,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Discover */}
-          <div>
-
-          </div>
-
           {/* Company */}
           <div>
             <h3 className="text-white font-semibold mb-4">A Associação</h3>
