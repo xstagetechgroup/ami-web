@@ -67,7 +67,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">{c.categories}</h3>
             <ul className="space-y-2 text-sm">
-              <li>Whatsapp: <Link href="https://wa.me/244912345678" className="hover:text-white">+244 912 345 678</Link></li>
+              <li>Whatsapp: <Link href="https://wa.me/244935975597" className="hover:text-white">+244 935 975 597</Link></li>
               <li>Email: <Link href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</Link></li>
             </ul>
           </div>
