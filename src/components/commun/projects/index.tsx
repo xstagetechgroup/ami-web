@@ -25,10 +25,10 @@ const ProjectsSection: React.FC = () => {
                         <h1 className='text-primaryColor uppercase text-start font-extrabold text-3xl'>{c.title}</h1>
                         <p>{c.text}</p>
                         <div className='w-full pt-5 pl-2 flex flex-col gap-2 items-start justify-start text-justify text-gray-800'>
-                            <p>- {c.bullet1}</p>
-                            <p>- {c.bullet2}</p>
-                            <p>- {c.bullet3}</p>
-                            <p>- {c.bullet4}</p>
+                            <p>{c.bullet1}</p>
+                            <p>{c.bullet2}</p>
+                            <p>{c.bullet3}</p>
+                            <p>{c.bullet4}</p>
                         </div>
                     </div>
                 </div>

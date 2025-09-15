@@ -57,8 +57,9 @@ const ComunidadeSection: FC = () => {
                                         height={40}
                                     />
                                 </div>
-                                <h3 className="text-3xl font-bold text-primaryColor">01</h3>
+                                <h3 className="text-3xl font-bold text-primaryColor">02</h3>
                                 <p className="text-gray-600 text-base font-medium">{c.stats.country}</p>
+                                <p className="text-gray-600 text-base font-medium">Angola e Portugal</p>
                             </div>
                             {/* Card 3 */}
                             <div className="bg-white shadow-md rounded-2xl p-6 text-center">
