@@ -1,0 +1,207 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Quem Somos",
+    "news": "Notícias",
+    "gallery": "Galeria",
+    "contact": "Contacto",
+    "language": "Português"
+  },
+  "galleryPage": {
+    "title": "GALERIA",
+    "breadcrumbHome": "HOME",
+    "breadcrumbGallery": "Galeria",
+    "imageAlt": "Imagem ampliada"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Viagem às Montanhas"
+    },
+    {
+      "id": 2,
+      "title": "Isto vai te levar para outra dimensão. Força…"
+    },
+    {
+      "id": 3,
+      "title": "Oficina com Jovens"
+    },
+    {
+      "id": 4,
+      "title": "Palestra no Estádio"
+    },
+    {
+      "id": 5,
+      "title": "Oficina com Jovens"
+    },
+    {
+      "id": 6,
+      "title": "Palestra no Estádio"
+    },
+    {
+      "id": 7,
+      "title": "Palestra no Estádio"
+    },
+    {
+      "id": 8,
+      "title": "Oficina com Jovens"
+    },
+    {
+      "id": 9,
+      "title": "Palestra no Estádio"
+    }
+  ],
+  "contact": {
+    "bannerTitle": "Contato",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contato",
+    "cards": {
+      "phone": "Telefone",
+      "whatsapp": "WhatsApp",
+      "email": "E-mail",
+      "location": "Localização",
+      "address": "Urbanização Boa Vida, Casa 98\nLuanda, Angola"
+    },
+    "formTitle": "Vamos conversar?",
+    "formDescription": "Entre em contato conosco e envie as suas dúvidas. Temos certeza de que teremos a solução certa para você.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "O seu e-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Digite o assunto",
+      "message": "Mensagem",
+      "messagePlaceholder": "A sua mensagem",
+      "button": "Enviar Mensagem"
+    }
+  },
+  "news": {
+    "breadcrumbHome": "Home",
+    "breadcrumbNews": "Notícias",
+    "author": "Autor",
+    "authorLabel": "Autor",
+    "overview": "Visão Geral",
+    "otherNews": "Outras notícias que podem interessar",
+    "readArticle": "Ler artigo →",
+    "newsletterTitle": "Fique por dentro! Inscreva-se na nossa newsletter",
+    "newsletterPlaceholder": "Digite seu e-mail",
+    "newsletterButton": "Enviar",
+    "notFound": "Notícia não encontrada.",
+    "extraText": "Além disso, este artigo destaca a importância do setor para o desenvolvimento sustentável e o impacto positivo na comunidade local.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Grupo Boavida inaugura novo centro comercial",
+        "description": "O Grupo Boavida inaugurou oficialmente um novo centro comercial, trazendo mais opções de lazer, compras e serviços à comunidade local.",
+        "category": "Economia",
+        "author": "Redação",
+        "tags": [
+          "Boavida",
+          "Inauguração",
+          "Empreendimentos"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Mercado imobiliário cresce 12% no último semestre",
+        "description": "O setor imobiliário registou um crescimento significativo de 12%, impulsionado pela valorização de imóveis em áreas urbanas.",
+        "category": "Imobiliário",
+        "author": "Agência de Notícias",
+        "tags": [
+          "Imobiliário",
+          "Investimentos",
+          "Mercado"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Novas soluções tecnológicas transformam a gestão de condomínios",
+        "description": "Softwares inteligentes de gestão estão a modernizar a forma como condomínios são administrados, garantindo maior transparência e eficiência.",
+        "category": "Tecnologia",
+        "author": "XSTAGE Tech Group",
+        "tags": [
+          "Tecnologia",
+          "Condomínios",
+          "Inovação"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Boavida Imóveis lança programa de avaliação gratuita",
+        "description": "A Boavida Imóveis anunciou um novo programa que permite aos clientes realizar avaliações gratuitas de propriedades residenciais e comerciais.",
+        "category": "Serviços",
+        "author": "Boavida Imóveis",
+        "tags": [
+          "Avaliação",
+          "Imóveis",
+          "Serviços"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Campanha de responsabilidade social apoia famílias carenciadas",
+        "description": "O Grupo Boavida realizou uma campanha de responsabilidade social que beneficiou mais de 500 famílias com cestas básicas e apoio escolar.",
+        "category": "Responsabilidade Social",
+        "author": "Comunicação Boavida",
+        "tags": [
+          "Social",
+          "Responsabilidade",
+          "Comunidade"
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "Transformar o mundo ",
+    "title2": "começa por ",
+    "title3": "instruir mulheres.",
+    "subtitle": "Junte-se a nós e nos ajude a ajudar"
+  },
+  "association": {
+    "title": "A Associação",
+    "paragraph1": "A Associação Mulheres Instruídas (AMI) é uma organização humanitária, filantrópica, sem fins lucrativos, apartidária e não governamental, criada em 2014 como um movimento social pela educação e resiliência feminina.",
+    "paragraph2": "Desde então, atuamos em comunidades, mercados, escolas e prisões, alcançando milhares de mulheres e famílias em Angola. Em 2024, a associação foi legalmente constituída, solidificando a sua missão e ampliando a sua capacidade de atuação.",
+    "paragraph3": "Hoje, a AMI afirma-se como uma verdadeira ferramenta de transformação, promovendo o desenvolvimento emocional, pessoal, social e profissional, ajudando as mulheres a ressignificar a dor, fortalecer valores éticos e cívicos, e a tomar consciência do seu valor e propósito."
+  },
+  "projects": {
+    "title": "O que fazemos",
+    "text": "A AMI dedica-se a instruir e capacitar mulheres, unindo formação prática e trabalho emocional profundo.",
+    "bullet1": "- Promovemos resiliência emocional, para transformar dor em força.",
+    "bullet2": "- Reforçamos valores e cidadania, despertando consciência social.",
+    "bullet3": "- Atuamos em contextos vulneráveis, oferecendo ferramentas práticas, emocionais e sociais para uma vida com propósito.",
+    "bullet4": "- Cada ação da AMI é pensada para ser um catalisador de mudança, transformando fragilidade em força e desafios em novas oportunidades."
+  },
+  "whoWeAre": {
+    "title": "Faça parte da equipe",
+    "text": "Junte-se à AMI e faça parte de um movimento que transforma vidas. Aqui, cada ação é um passo para fortalecer mulheres, famílias e comunidades, construindo um futuro com mais resiliência, ética e propósito.",
+    "button": "Ver Mais"
+  },
+  "testimonials": {
+    "title": "O que as pessoas dizem",
+    "namePlaceholder": "O seu nome",
+    "emailPlaceholder": "O seu email",
+    "testimonyPlaceholder": "Escreva o seu testemunho...",
+    "add": "Adicionar Testemunho"
+  },
+  "community": {
+    "title": "COMUNIDADE",
+    "paragraph": "A nossa comunidade é feita de histórias de superação, união e transformação. Em mais de 10 anos de atuação, a AMI já impactou mais de 200.000 mulheres em diferentes contextos — mercados, cadeias, escolas e comunidades — espalhando resiliência e esperança em Angola e além-fronteiras. Cada número reflete vidas tocadas e sonhos reconstruídos.",
+    "stats": {
+      "people": "Número de pessoas impactadas",
+      "country": "País impactado",
+      "years": "Anos de actividade",
+      "team": "Tamanho da equipa"
+    }
+  },
+  "footer": {
+    "about": "Mais de 200 mil mulheres Instruídas. Uma associação sem fins lucrativos liderada pela PCA Iracelma Almeida",
+    "company": "A Associação",
+    "companyLink1": "Quem Somos",
+    "companyLink2": "Projetos",
+    "companyLink3": "Notícias",
+    "companyLink4": "Contactos",
+    "categories": "Contactos",
+    "inferiror": "Associação de Mulheres Instruídas. Todos os direitos reservados."
+  }
+}

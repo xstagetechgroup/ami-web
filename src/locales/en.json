@@ -1,0 +1,207 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "news": "News",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "language": "English"
+  },
+  "galleryPage": {
+    "title": "GALLERY",
+    "breadcrumbHome": "HOME",
+    "breadcrumbGallery": "Gallery",
+    "imageAlt": "Enlarged image"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Trip to the Mountains"
+    },
+    {
+      "id": 2,
+      "title": "This will take you to another dimension. Go ahead…"
+    },
+    {
+      "id": 3,
+      "title": "Workshop with Youth"
+    },
+    {
+      "id": 4,
+      "title": "Lecture at the Stadium"
+    },
+    {
+      "id": 5,
+      "title": "Workshop with Youth"
+    },
+    {
+      "id": 6,
+      "title": "Lecture at the Stadium"
+    },
+    {
+      "id": 7,
+      "title": "Lecture at the Stadium"
+    },
+    {
+      "id": 8,
+      "title": "Workshop with Youth"
+    },
+    {
+      "id": 9,
+      "title": "Lecture at the Stadium"
+    }
+  ],
+  "contact": {
+    "bannerTitle": "Contact",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contact",
+    "cards": {
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "location": "Location",
+      "address": "Boa Vida Urbanization, House 98\nLuanda, Angola"
+    },
+    "formTitle": "Let's talk?",
+    "formDescription": "Get in touch with us and send your questions. We’re sure we’ll have the right solution for you.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "button": "Send Message"
+    }
+  },
+  "news": {
+    "breadcrumbHome": "Home",
+    "breadcrumbNews": "News",
+    "author": "Author",
+    "authorLabel": "Author",
+    "overview": "Overview",
+    "otherNews": "Other news you might like",
+    "readArticle": "Read article →",
+    "newsletterTitle": "Stay updated! Subscribe to our newsletter",
+    "newsletterPlaceholder": "Enter your email",
+    "newsletterButton": "Send",
+    "notFound": "News not found.",
+    "extraText": "Additionally, this article highlights the sector's importance for sustainable development and the positive impact on the local community.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Boavida Group opens new shopping center",
+        "description": "Boavida Group officially opened a new shopping center, bringing more leisure, shopping and service options to the local community.",
+        "category": "Economy",
+        "author": "Editorial",
+        "tags": [
+          "Boavida",
+          "Opening",
+          "Developments"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Real estate market grows 12% in the last six months",
+        "description": "The real estate sector recorded a significant 12% growth, driven by rising property values in urban areas.",
+        "category": "Real Estate",
+        "author": "News Agency",
+        "tags": [
+          "Real Estate",
+          "Investments",
+          "Market"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "New tech solutions transform condominium management",
+        "description": "Smart management software is modernizing how condominiums are administered, ensuring greater transparency and efficiency.",
+        "category": "Technology",
+        "author": "XSTAGE Tech Group",
+        "tags": [
+          "Technology",
+          "Condominiums",
+          "Innovation"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Boavida Imóveis launches free appraisal program",
+        "description": "Boavida Imóveis announced a new program allowing clients to request free appraisals of residential and commercial properties.",
+        "category": "Services",
+        "author": "Boavida Imóveis",
+        "tags": [
+          "Appraisal",
+          "Real Estate",
+          "Services"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Social responsibility campaign supports vulnerable families",
+        "description": "Boavida Group conducted a social responsibility campaign that helped over 500 families with food baskets and school support.",
+        "category": "Social Responsibility",
+        "author": "Boavida Communications",
+        "tags": [
+          "Social",
+          "Responsibility",
+          "Community"
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "Transforming the world ",
+    "title2": "starts by ",
+    "title3": "educating women.",
+    "subtitle": "Join us and help us help"
+  },
+  "association": {
+    "title": "The Association",
+    "paragraph1": "The Educated Women Association (AMI) is a humanitarian, philanthropic, non-profit, non-partisan and non-governmental organization, created in 2014 as a social movement for female education and resilience.",
+    "paragraph2": "Since then, we have worked in communities, markets, schools, and prisons, reaching thousands of women and families in Angola. In 2024, the association was legally established, solidifying its mission and expanding its capacity to serve.",
+    "paragraph3": "Today, AMI establishes itself as a true tool for transformation, working toward emotional, personal, social, and professional development, helping women reframe pain, strengthen ethical and civic values, and gain awareness of their worth and purpose."
+  },
+  "projects": {
+    "title": "What we do",
+    "text": "AMI is dedicated to educating and empowering women, combining practical training with deep emotional work.",
+    "bullet1": "- We promote emotional resilience, transforming pain into strength.",
+    "bullet2": "- We reinforce values and citizenship, raising social awareness.",
+    "bullet3": "- We work in vulnerable contexts, providing practical, emotional, and social tools for a life with purpose.",
+    "bullet4": "- Every AMI action is designed to be a catalyst for change, turning fragility into strength and challenges into new opportunities."
+  },
+  "whoWeAre": {
+    "title": "Join the team",
+    "text": "Join AMI and be part of a movement that transforms lives. Here, every action is a step toward empowering women, families, and communities, building a future with greater resilience, ethics, and purpose.",
+    "button": "See More"
+  },
+  "testimonials": {
+    "title": "What people say",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "testimonyPlaceholder": "Write your testimony...",
+    "add": "Add Testimonial"
+  },
+  "community": {
+    "title": "COMMUNITY",
+    "paragraph": "Our community is made up of stories of overcoming, unity, and transformation. In over 10 years of operation, AMI has impacted more than 200,000 women in different contexts—markets, prisons, schools, and communities—spreading resilience and hope in Angola and beyond. Each number reflects lives touched and dreams rebuilt.",
+    "stats": {
+      "people": "Number of people impacted",
+      "country": "Country impacted",
+      "years": "Years of activity",
+      "team": "Team size"
+    }
+  },
+  "footer": {
+    "about": "Over 200,000 educated women. A non-profit association led by Chairwoman Iracelma Almeida",
+    "company": "The Association",
+    "companyLink1": "Who We Are",
+    "companyLink2": "Projects",
+    "companyLink3": "News",
+    "companyLink4": "Contacts",
+    "categories": "Contacts",
+    "inferiror": "Educated Women Association. All rights reserved."
+  }
+}

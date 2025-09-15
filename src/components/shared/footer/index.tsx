@@ -1,10 +1,16 @@
-// components/Footer.tsx
+'use client';
+
 import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import Container from "../container";
 import Link from "next/link";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function Footer() {
+
+  const { t } = useTranslation();
+  const c = t.footer; // atalho
+
   return (
     <footer className="bg-gray-900 text-gray-300 pt-20 pb-10">
       <Container>
@@ -14,9 +20,11 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <Image src="/assets/logo-white.png" alt="Logo" width={150} height={150} />
               <p className="text-sm w-full md:w-[60%]">
-                Mais de 200 mil mulheres Instruídas. Uma associação sem fins lucrativos liderada pela PCA Iracelma Almeida
+                {c.about}
               </p>
             </div>
+
+
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-5">
@@ -41,20 +49,23 @@ export default function Footer() {
             </div>
           </div>
 
+
+          <div></div>
+
           {/* Company */}
           <div>
-            <h3 className="text-white font-semibold mb-4">A Associação</h3>
+            <h3 className="text-white font-semibold mb-4">{c.company}</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#sobre" className="hover:text-white">Quem Somos</Link></li>
-              <li><Link href="#projectos" className="hover:text-white">Projetos</Link></li>
-              <li><Link href="/noticias" className="hover:text-white">Notícias</Link></li>
-              <li><Link href="/contacto" className="hover:text-white">Contactos</Link></li>
+              <li><Link href="#sobre" className="hover:text-white">{c.companyLink1}</Link></li>
+              <li><Link href="#projectos" className="hover:text-white">{c.companyLink2}</Link></li>
+              <li><Link href="/noticias" className="hover:text-white">{c.companyLink3}</Link></li>
+              <li><Link href="/contacto" className="hover:text-white">{c.companyLink4}</Link></li>
             </ul>
           </div>
 
           {/* Popular Categories */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Contactos</h3>
+            <h3 className="text-white font-semibold mb-4">{c.categories}</h3>
             <ul className="space-y-2 text-sm">
               <li>Whatsapp: <Link href="https://wa.me/244912345678" className="hover:text-white">+244 912 345 678</Link></li>
               <li>Email: <Link href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</Link></li>
@@ -64,7 +75,7 @@ export default function Footer() {
 
         {/* Linha inferior */}
         <div className="mt-10 border-t border-gray-700 pt-5 text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} Associação de Mulheres Instruídas. Todos os direitos reservados.
+          © {new Date().getFullYear()} {c.inferiror}
         </div>
       </Container>
     </footer>

@@ -1,0 +1,207 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "Qui sommes-nous",
+    "news": "Nouvelles",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "language": "Français"
+  },
+  "galleryPage": {
+    "title": "GALERIE",
+    "breadcrumbHome": "ACCUEIL",
+    "breadcrumbGallery": "Galerie",
+    "imageAlt": "Image agrandie"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Voyage dans les montagnes"
+    },
+    {
+      "id": 2,
+      "title": "Cela va vous emmener dans une autre dimension. Allez-y…"
+    },
+    {
+      "id": 3,
+      "title": "Atelier avec les jeunes"
+    },
+    {
+      "id": 4,
+      "title": "Conférence au stade"
+    },
+    {
+      "id": 5,
+      "title": "Atelier avec les jeunes"
+    },
+    {
+      "id": 6,
+      "title": "Conférence au stade"
+    },
+    {
+      "id": 7,
+      "title": "Conférence au stade"
+    },
+    {
+      "id": 8,
+      "title": "Atelier avec les jeunes"
+    },
+    {
+      "id": 9,
+      "title": "Conférence au stade"
+    }
+  ],
+  "contact": {
+    "bannerTitle": "Contacts",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbContact": "Contacts",
+    "cards": {
+      "phone": "Téléphone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "location": "Localisation",
+      "address": "Urbanisation Boa Vida, Maison 98\nLuanda, Angola"
+    },
+    "formTitle": "On discute ?",
+    "formDescription": "Contactez-nous et envoyez-nous vos questions. Nous aurons certainement la solution pour vous.",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Votre email",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sujet",
+      "message": "Message",
+      "messagePlaceholder": "Votre message",
+      "button": "Envoyer le message"
+    }
+  },
+  "news": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbNews": "Actualités",
+    "author": "Auteur",
+    "authorLabel": "Auteur",
+    "overview": "Aperçu",
+    "otherNews": "Autres actualités susceptibles de vous intéresser",
+    "readArticle": "Lire l'article →",
+    "newsletterTitle": "Restez informé ! Inscrivez-vous à notre newsletter",
+    "newsletterPlaceholder": "Saisissez votre e-mail",
+    "newsletterButton": "Envoyer",
+    "notFound": "Actualité non trouvée.",
+    "extraText": "De plus, cet article met en avant l'importance du secteur pour le développement durable et l'impact positif sur la communauté locale.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Le groupe Boavida inaugure un nouveau centre commercial",
+        "description": "Le groupe Boavida a officiellement inauguré un nouveau centre commercial, offrant davantage d'options de loisirs, de shopping et de services à la communauté locale.",
+        "category": "Économie",
+        "author": "Rédaction",
+        "tags": [
+          "Boavida",
+          "Inauguration",
+          "Projets"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Le marché immobilier augmente de 12 % au dernier semestre",
+        "description": "Le secteur immobilier a enregistré une croissance significative de 12 %, stimulée par la valorisation des biens dans les zones urbaines.",
+        "category": "Immobilier",
+        "author": "Agence de Presse",
+        "tags": [
+          "Immobilier",
+          "Investissements",
+          "Marché"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Nouvelles solutions technologiques transforment la gestion des copropriétés",
+        "description": "Des logiciels de gestion intelligents modernisent l'administration des copropriétés, garantissant davantage de transparence et d'efficacité.",
+        "category": "Technologie",
+        "author": "XSTAGE Tech Group",
+        "tags": [
+          "Technologie",
+          "Copropriétés",
+          "Innovation"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Boavida Imóveis lance un programme d'évaluation gratuite",
+        "description": "Boavida Imóveis a annoncé un nouveau programme permettant aux clients de réaliser des évaluations gratuites de biens résidentiels et commerciaux.",
+        "category": "Services",
+        "author": "Boavida Imóveis",
+        "tags": [
+          "Évaluation",
+          "Immobilier",
+          "Services"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Campagne de responsabilité sociale soutient des familles vulnérables",
+        "description": "Le groupe Boavida a mené une campagne de responsabilité sociale qui a bénéficié à plus de 500 familles avec des paniers alimentaires et un soutien scolaire.",
+        "category": "Responsabilité sociale",
+        "author": "Communication Boavida",
+        "tags": [
+          "Social",
+          "Responsabilité",
+          "Communauté"
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "Transformer le monde ",
+    "title2": "commence par ",
+    "title3": "instruire les femmes.",
+    "subtitle": "Rejoignez-nous et aidez-nous à aider"
+  },
+  "association": {
+    "title": "L’Association",
+    "paragraph1": "L’Association Femmes Instruites (AMI) est une organisation humanitaire, philanthropique, à but non lucratif, apolitique et non gouvernementale, créée en 2014 comme un mouvement social pour l’éducation et la résilience des femmes.",
+    "paragraph2": "Depuis lors, nous intervenons dans les communautés, les marchés, les écoles et les prisons, atteignant des milliers de femmes et de familles en Angola. En 2024, l’association a été légalement constituée, consolidant sa mission et élargissant sa capacité d’action.",
+    "paragraph3": "Aujourd’hui, l’AMI s’affirme comme un véritable outil de transformation, œuvrant pour le développement émotionnel, personnel, social et professionnel, aidant les femmes à revaloriser la douleur, à renforcer les valeurs éthiques et civiques, et à prendre conscience de leur valeur et de leur objectif."
+  },
+  "projects": {
+    "title": "Ce que nous faisons",
+    "text": "L’AMI se consacre à instruire et à autonomiser les femmes, en alliant formation pratique et travail émotionnel en profondeur.",
+    "bullet1": "- Nous promouvons la résilience émotionnelle, pour transformer la douleur en force.",
+    "bullet2": "- Nous renforçons les valeurs et la citoyenneté, en éveillant la conscience sociale.",
+    "bullet3": "- Nous intervenons dans des contextes vulnérables, en offrant des outils pratiques, émotionnels et sociaux pour une vie pleine de sens.",
+    "bullet4": "- Chaque action de l’AMI est pensée pour être un catalyseur de changement, transformant la fragilité en force et les défis en nouvelles opportunités."
+  },
+  "whoWeAre": {
+    "title": "Rejoignez l’équipe",
+    "text": "Rejoignez l’AMI et faites partie d’un mouvement qui transforme des vies. Ici, chaque action est une étape pour renforcer les femmes, les familles et les communautés, en construisant un avenir avec plus de résilience, d’éthique et de sens.",
+    "button": "Voir Plus"
+  },
+  "testimonials": {
+    "title": "Ce que les gens disent",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre email",
+    "testimonyPlaceholder": "Écrivez votre témoignage...",
+    "add": "Ajouter un témoignage"
+  },
+  "community": {
+    "title": "COMMUNAUTÉ",
+    "paragraph": "Notre communauté est faite d'histoires de dépassement de soi, d'unité et de transformation. En plus de dix ans d'existence, AMI a touché plus de 200 000 femmes dans différents contextes – marchés, prisons, écoles et communautés –, répandant résilience et espoir en Angola et au-delà. Chaque chiffre reflète des vies touchées et des rêves reconstruits.",
+    "stats": {
+      "people": "Nombre de personnes impactées",
+      "country": "Pays impacté",
+      "years": "Années d'activité",
+      "team": "Taille de l'équipe"
+    }
+  },
+  "footer": {
+    "about": "Plus de 200 000 femmes instruites. Une association à but non lucratif dirigée par la Présidente Iracelma Almeida",
+    "company": "L’Association",
+    "companyLink1": "Qui Nous Sommes",
+    "companyLink2": "Projets",
+    "companyLink3": "Actualités",
+    "companyLink4": "Contacts",
+    "categories": "Contacts",
+    "inferiror": "Association des Femmes Instruites. Tous droits réservés."
+  }
+}

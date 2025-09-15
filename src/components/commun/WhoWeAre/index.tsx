@@ -1,9 +1,16 @@
+'use client';
 import Container from '@/components/shared/container';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from '@/hooks/useTranslation';
 import Image from 'next/image';
 import React from 'react';
 
 export default function WhoWeAre() {
+
+    const { t } = useTranslation();
+    const c = t.whoWeAre; // atalho
+
+
     return (
         <div className="w-full flex flex-col items-center justify-center" id='team'>
 
@@ -24,10 +31,10 @@ export default function WhoWeAre() {
                                 />
                             </div>
                             <div className='col-span-2 px-5 md:border-l h-full flex flex-col gap-5 justify-center items-start'>
-                                <h2 className="text-3xl font-bold text-white mb-4">Faça parte da equipe</h2>
-                                <p className='text-lg font-semibold text-justify text-white'>Junte-se à AMI e faça parte de um movimento que transforma vidas. Aqui, cada ação é um passo para fortalecer mulheres, famílias e comunidades, construindo um futuro com mais resiliência, ética e propósito.</p>
+                                <h2 className="text-3xl font-bold text-white mb-4">{c.title}</h2>
+                                <p className='text-lg font-semibold text-justify text-white'>{c.text}</p>
                                 <Button className='bg-transparent text-white border-2 capitalize font-bold border-white px-7 py-2 rounded-sm hover:bg-primaryColor group duration-200'>
-                                    <p className='duration-200 group-hover:text-white'>Ver Mais</p>
+                                    <p className='duration-200 group-hover:text-white'>{c.button}</p>
                                 </Button>
                             </div>
                         </div>

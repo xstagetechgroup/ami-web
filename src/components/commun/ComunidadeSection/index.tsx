@@ -1,8 +1,14 @@
+'use client';
 import { FC } from "react";
 import Container from "@/components/shared/container";
 import Image from "next/image";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const ComunidadeSection: FC = () => {
+
+    const { t } = useTranslation();
+    const c = t.community; // atalho
+
     return (
         <div
             className="w-full "
@@ -15,10 +21,10 @@ const ComunidadeSection: FC = () => {
                     {/* Conteúdo lado esquerdo */}
                     <div data-aos="fade-right" className="flex-1 max-w-lg bg-cover bg-center rounded-xl">
                         <div className="bg-white w-full mb-6 inline-block">
-                            <h2 className="text-primaryColor font-extrabold text-3xl">COMUNIDADE</h2>
+                            <h2 className="text-primaryColor font-extrabold text-3xl">{c.title}</h2>
                         </div>
                         <p className="text-gray-700 leading-relaxed text-justify">
-                            A nossa comunidade é feita de histórias de superação, união e transformação. Em mais de 10 anos de atuação, a AMI já impactou mais de 200.000 mulheres em diferentes contextos — mercados, cadeias, escolas e comunidades — espalhando resiliência e esperança em Angola e além-fronteiras. Cada número reflete vidas tocadas e sonhos reconstruídos.
+                            {c.paragraph}
                         </p>
                     </div>
 
@@ -39,7 +45,7 @@ const ComunidadeSection: FC = () => {
                                     />
                                 </div>
                                 <h3 className="text-3xl font-bold text-primaryColor">+200K</h3>
-                                <p className="text-gray-600 text-base font-medium">Número de pessoas impactadas</p>
+                                <p className="text-gray-600 text-base font-medium">{c.stats.people}</p>
                             </div>
                             {/* Card 2 */}
                             <div className="bg-white shadow-md rounded-2xl p-6 text-center">
@@ -52,8 +58,7 @@ const ComunidadeSection: FC = () => {
                                     />
                                 </div>
                                 <h3 className="text-3xl font-bold text-primaryColor">01</h3>
-                                <p className="text-gray-600 text-base font-medium">País impactado</p>
-                                <p>(Angola, com projeção <br /> internacional)</p>
+                                <p className="text-gray-600 text-base font-medium">{c.stats.country}</p>
                             </div>
                             {/* Card 3 */}
                             <div className="bg-white shadow-md rounded-2xl p-6 text-center">
@@ -66,7 +71,7 @@ const ComunidadeSection: FC = () => {
                                     />
                                 </div>
                                 <h3 className="text-3xl font-bold text-primaryColor">10</h3>
-                                <p className="text-gray-600 text-base font-medium">Anos de actividade</p>
+                                <p className="text-gray-600 text-base font-medium">{c.stats.years}</p>
                             </div>
                             {/* Card 4 */}
                             <div className="bg-white shadow-md rounded-2xl p-6 text-center">
@@ -79,7 +84,7 @@ const ComunidadeSection: FC = () => {
                                     />
                                 </div>
                                 <h3 className="text-3xl font-bold text-primaryColor">13</h3>
-                                <p className="text-gray-600 text-base font-medium">Tamanho da equipa</p>
+                                <p className="text-gray-600 text-base font-medium">{c.stats.team}</p>
                             </div>
                         </div>
                     </div>

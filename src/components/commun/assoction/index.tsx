@@ -12,6 +12,7 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function AssociactionSection() {
     const [videoUrl, setVideoUrl] = useState<string | null>(null);
@@ -20,8 +21,11 @@ export default function AssociactionSection() {
     const youtubeLink = "https://www.youtube.com/embed/t5UhljQoegI";
     /* const localVideo = ""; */ // se você tiver um vídeo local
 
+    const { t } = useTranslation();
+    const c = t.association; // atalho
+
     return (
-        <div className="w-full" id="association">
+        <div className="w-full py-20" id="association">
             <Container>
                 <section className="relative flex flex-col md:flex-row border-gray-300 items-center md:items-start gap-8 px-0 pb-10">
                     {/* Texto */}
@@ -31,16 +35,16 @@ export default function AssociactionSection() {
                         className="flex-1 text-justify"
                     >
                         <h2 className="text-primaryColor font-extrabold text-3xl mb-4 uppercase">
-                            A Associação
+                            {c.title}
                         </h2>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            A Associação Mulheres Instruídas (AMI) é uma organização humanitária, filantrópica, sem fins lucrativos, apartidária e não governamental, criada em 2014 como movimento social de instrução e resiliência feminina.
+                            {c.paragraph1}
                         </p>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            Desde então, temos atuado em comunidades, mercados, escolas e estabelecimentos prisionais, alcançando milhares de mulheres e famílias em Angola. Em 2024, a associação foi legalmente constituída, consolidando a sua missão e ampliando a capacidade de servir.
+                            {c.paragraph2}
                         </p>
                         <p className="text-gray-700 leading-relaxed">
-                            Hoje, a AMI afirma-se como uma verdadeira ferramenta de transformação, que atua no desenvolvimento emocional, pessoal, social e profissional, ajudando mulheres a ressignificar a dor, fortalecer valores de ética e cidadania e conquistar consciência do seu valor e do seu propósito.
+                            {c.paragraph3}
                         </p>
                     </div>
 

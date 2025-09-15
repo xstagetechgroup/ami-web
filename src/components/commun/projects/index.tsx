@@ -1,10 +1,16 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import Container from '@/components/shared/container';
+import { useTranslation } from '@/hooks/useTranslation';
 
 // import { Container } from './styles';
 
 const ProjectsSection: React.FC = () => {
+    
+        const { t } = useTranslation();
+        const c = t.projects; // atalho
+
     return (
         <div className='w-full pb-10' id='projects'>
             <Container>
@@ -16,13 +22,13 @@ const ProjectsSection: React.FC = () => {
                     </div>
 
                     <div data-aos="fade-left" data-aos-delay="300" className='flex flex-col gap-4 justify-start'>
-                        <h1 className='text-primaryColor uppercase text-start font-extrabold text-3xl'>O que fazemos</h1>
-                        <p>A AMI dedica-se a instruir e capacitar mulheres, unindo formação prática e trabalho emocional profundo.</p>
+                        <h1 className='text-primaryColor uppercase text-start font-extrabold text-3xl'>{c.title}</h1>
+                        <p>{c.text}</p>
                         <div className='w-full pt-5 pl-2 flex flex-col gap-2 items-start justify-start text-justify text-gray-800'>
-                            <p>- Promovemos resiliência emocional, para transformar dor em força.</p>
-                            <p>- Reforçamos valores e cidadania, despertando consciência social.</p>
-                            <p>- Atuamos em contextos vulneráveis, oferecendo ferramentas práticas, emocionais e sociais para uma vida com propósito.</p>
-                            <p>- Cada ação da AMI é pensada para ser um catalisador de mudança, transformando fragilidade em força e desafios em novas oportunidades.</p>
+                            <p>- {c.bullet1}</p>
+                            <p>- {c.bullet2}</p>
+                            <p>- {c.bullet3}</p>
+                            <p>- {c.bullet4}</p>
                         </div>
                     </div>
                 </div>

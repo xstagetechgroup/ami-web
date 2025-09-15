@@ -8,7 +8,7 @@ import WhoWeAre from "@/components/commun/WhoWeAre";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col">
       <HeroSection />
       <Association />
       <ProjectsSection />
