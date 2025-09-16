@@ -141,7 +141,7 @@ const Noticias: React.FC = () => {
                                                 <h3 className="text-lg font-bold mt-2 line-clamp-2">{news.title}</h3>
 
                                                 {/* Descrição */}
-                                                <p className="text-gray-600 text-sm mt-2 line-clamp-3">{news.description}</p>
+                                                <p className="text-gray-600 text-sm mt-2 line-clamp-2">{news.description}</p>
 
                                                 {/* Autor e Data */}
                                                 <div className="flex justify-between items-center mt-4 text-xs text-gray-500">

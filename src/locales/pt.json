@@ -15,40 +15,24 @@
   },
   "gallery": [
     {
-      "id": 1,
-      "title": "Viagem às Montanhas"
-    },
-    {
       "id": 2,
       "title": "Isto vai te levar para outra dimensão. Força…"
     },
     {
-      "id": 3,
-      "title": "Oficina com Jovens"
-    },
-    {
-      "id": 4,
-      "title": "Palestra no Estádio"
-    },
-    {
-      "id": 5,
-      "title": "Oficina com Jovens"
-    },
-    {
       "id": 6,
-      "title": "Palestra no Estádio"
+      "title": "Projecto Resiliência: O Caminho para a Superação"
     },
     {
       "id": 7,
-      "title": "Palestra no Estádio"
+      "title": "Organização da Mulher Angolana (OMA)"
     },
     {
       "id": 8,
-      "title": "Oficina com Jovens"
+      "title": "Um lugar onde muitos viram erro, mas nós vimos possibilidade"
     },
     {
       "id": 9,
-      "title": "Palestra no Estádio"
+      "title": "Quando cuidamos de uma criança, cuidamos do futuro de todos nós"
     }
   ],
   "contact": {
@@ -92,62 +76,37 @@
     "items": [
       {
         "id": 1,
-        "title": "Grupo Boavida inaugura novo centro comercial",
-        "description": "O Grupo Boavida inaugurou oficialmente um novo centro comercial, trazendo mais opções de lazer, compras e serviços à comunidade local.",
-        "category": "Economia",
-        "author": "Redação",
+        "title": "1.º Encontro das Mulheres Instruídas em Lisboa",
+        "description": "Levamos o pano Samakaka a Lisboa 🇵🇹. Não como adorno, mas como símbolo. Um pedaço da nossa história, da nossa identidade e da força das Mulheres Instruídas. E ali, longe de casa, vimos algo que tocou profundamente os nossos corações: as mulheres de outras culturas a receberem aquele pano com encanto, respeito e admiração. Foi mais do que um brinde foi um abraço entre continentes. Foi a nossa Angola, com toda a sua ancestralidade, a ser acolhida com beleza e reverência. Cada olhar maravilhado diante da Samakaka era como uma semente lançada ao vento, espalhando a força de uma cultura que resiste, que ensina e que inspira. Ver o nosso pano nas mãos de outras mulheres mostrou-me que quando nos honramos, o mundo aprende a honrar-nos também. O Samakaka não falou só de nós falou de todas as mulheres que carregam nas suas raízes uma história que merece ser contada, reconhecida e celebrada. Não era apenas tecido. Era memória, era força, era dignidade em forma de cor.E naquele momento, compreendi: ser uma Mulher Instruída é também saber levar consigo, com orgulho, o que nos torna únicas e oferecer isso ao mundo como um presente de valor incalculável.",
+        "category": "Cultura",
+        "author": "Associação Mulheres Instruídas",
         "tags": [
-          "Boavida",
-          "Inauguração",
-          "Empreendimentos"
+          "Cultura",
+          "Portugal",
+          "Samakaka"
         ]
       },
       {
         "id": 2,
-        "title": "Mercado imobiliário cresce 12% no último semestre",
-        "description": "O setor imobiliário registou um crescimento significativo de 12%, impulsionado pela valorização de imóveis em áreas urbanas.",
-        "category": "Imobiliário",
-        "author": "Agência de Notícias",
+        "title": "Um lugar onde muitos viram erro, mas nós vimos possibilidade.",
+        "description": "Levar instrução a uma cadeia é levar palavras, escuta, empatia e ferramentas para recomeçar. Porque acreditamos que a transformação não escolhe lugar ela começa onde houver uma alma disposta a ouvir, a refletir, a mudar. Para nós, da Associação Mulheres Instruídas, entrar num estabelecimento prisional não é apenas um acto de visita é um compromisso com a inclusão social, com a reinserção humana, com a restituição da dignidade. Acreditamos que mesmo atrás das grades, a mente pode ser liberta. E quando a consciência desperta, nasce um novo caminho. Cada pessoa que ali ouvimos não é apenas um número ou uma sentença é uma história que ainda pode ser ressignificada. Porque enquanto há vida, há recomeço. E onde há instrução, há luz. Instruir é reacender a esperança. E é por isso que estamos aqui.",
+        "category": "Transformação",
+        "author": "Associação Mulheres Instruídas",
         "tags": [
-          "Imobiliário",
-          "Investimentos",
-          "Mercado"
+          "Transformação",
+          "Inclusão Social"
         ]
       },
       {
         "id": 3,
-        "title": "Novas soluções tecnológicas transformam a gestão de condomínios",
-        "description": "Softwares inteligentes de gestão estão a modernizar a forma como condomínios são administrados, garantindo maior transparência e eficiência.",
-        "category": "Tecnologia",
-        "author": "XSTAGE Tech Group",
+        "title": "Visita de Constatação e Cooperação Solidária",
+        "description": "A nossa presidente realizou uma visita de constatação à Associação Direitos e Inclusão das Mulheres com Deficiência, com o objectivo de escutar, compreender e levantar dados sobre a realidade vivida pelas mulheres que integram esta organização. Durante o encontro, que contou com a presença das duas presidentes, foram abordadas as principais dificuldades enfrentadas pela associação, incluindo desafios estruturais, sociais e de inclusão. A visita teve como propósito não apenas a observação, mas também a abertura de um diálogo colaborativo para, juntas, encontrarmos caminhos concretos, partilharmos forças e unirmos energias na construção de soluções eficazes e duradouras. Acreditamos que quando mulheres se unem com propósito e empatia, é possível transformar realidades e garantir que nenhuma mulher seja deixada para trás, independentemente da sua condição física ou social.",
+        "category": "Inclusão",
+        "author": "Associação Mulheres Instruídas",
         "tags": [
-          "Tecnologia",
-          "Condomínios",
-          "Inovação"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Boavida Imóveis lança programa de avaliação gratuita",
-        "description": "A Boavida Imóveis anunciou um novo programa que permite aos clientes realizar avaliações gratuitas de propriedades residenciais e comerciais.",
-        "category": "Serviços",
-        "author": "Boavida Imóveis",
-        "tags": [
-          "Avaliação",
-          "Imóveis",
-          "Serviços"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Campanha de responsabilidade social apoia famílias carenciadas",
-        "description": "O Grupo Boavida realizou uma campanha de responsabilidade social que beneficiou mais de 500 famílias com cestas básicas e apoio escolar.",
-        "category": "Responsabilidade Social",
-        "author": "Comunicação Boavida",
-        "tags": [
-          "Social",
-          "Responsabilidade",
-          "Comunidade"
+          "Inclusão",
+          "Observação",
+          "Diálogo Colaborativo"
         ]
       }
     ]

@@ -117,7 +117,7 @@ export default function Noticias({ params }: NoticePageProps) {
             </div>
 
             {/* Descrição */}
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
+            <p className="text-gray-700 text-lg leading-relaxed mb-6 line-clamp-2">
               {news.description}
             </p>
 
@@ -149,9 +149,8 @@ export default function Noticias({ params }: NoticePageProps) {
               <h2 className="text-black font-bold text-xl">
                 {n.overview ?? "Visão Geral"}
               </h2>
-              <p>
-                {news.description}{" "}
-                {(n.extraText ?? "Além disso, este artigo destaca a importância do setor para o desenvolvimento sustentável e o impacto positivo na comunidade local.")}
+              <p className="text-gray-700 text-lg leading-loose text-justify">
+                {news.description}
               </p>
             </div>
           </div>

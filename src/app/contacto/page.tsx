@@ -41,7 +41,7 @@ export default function ContactPage() {
                                 <p className="font-bold text-lg pt-5">{c.cards.phone}</p>
                                 <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 935 975 597</p>
                             </div>
-                            <Link href={"https://wa.me/244935975597"} className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col justify-center items-center">
+                            <Link target="_blank" href={"https://wa.me/244935975597"} className="rounded-lg p-5 aspect-square bg-pink-50 flex flex-col justify-center items-center">
                                 <IoLogoWhatsapp className="size-10 text-primaryColor" />
                                 <p className="font-bold text-lg pt-5">{c.cards.whatsapp}</p>
                                 <p className="text-gray-700 font-medium text-xs md:text-base text-center">+244 935 975 597</p>

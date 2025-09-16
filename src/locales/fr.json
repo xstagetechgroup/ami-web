@@ -15,40 +15,24 @@
   },
   "gallery": [
     {
-      "id": 1,
-      "title": "Voyage dans les montagnes"
-    },
-    {
       "id": 2,
-      "title": "Cela va vous emmener dans une autre dimension. Allez-y…"
-    },
-    {
-      "id": 3,
-      "title": "Atelier avec les jeunes"
-    },
-    {
-      "id": 4,
-      "title": "Conférence au stade"
-    },
-    {
-      "id": 5,
-      "title": "Atelier avec les jeunes"
+      "title": "Cela va t’emmener dans une autre dimension. Vas-y…"
     },
     {
       "id": 6,
-      "title": "Conférence au stade"
+      "title": "Projet Résilience : Le Chemin du Dépassement"
     },
     {
       "id": 7,
-      "title": "Conférence au stade"
+      "title": "Organisation de la Femme Angolaise (OMA)"
     },
     {
       "id": 8,
-      "title": "Atelier avec les jeunes"
+      "title": "Un lieu où beaucoup ont vu une erreur, mais nous avons vu une possibilité"
     },
     {
       "id": 9,
-      "title": "Conférence au stade"
+      "title": "Quand nous prenons soin d’un enfant, nous prenons soin de l’avenir de nous tous"
     }
   ],
   "contact": {
@@ -92,62 +76,37 @@
     "items": [
       {
         "id": 1,
-        "title": "Le groupe Boavida inaugure un nouveau centre commercial",
-        "description": "Le groupe Boavida a officiellement inauguré un nouveau centre commercial, offrant davantage d'options de loisirs, de shopping et de services à la communauté locale.",
-        "category": "Économie",
-        "author": "Rédaction",
+        "title": "1ère Rencontre des Femmes Instruites à Lisbonne",
+        "description": "Nous avons emmené le tissu Samakaka à Lisbonne 🇵🇹. Pas comme un simple ornement, mais comme un symbole. Un morceau de notre histoire, de notre identité et de la force des Femmes Instruites. Et là, loin de chez nous, nous avons vu quelque chose qui a profondément touché nos cœurs : des femmes d’autres cultures recevant ce tissu avec charme, respect et admiration. C’était plus qu’un cadeau—c’était une étreinte entre continents. C’était notre Angola, avec toute son ancestralité, accueillie avec beauté et révérence. Chaque regard émerveillé devant le Samakaka était comme une graine portée par le vent, répandant la force d’une culture qui résiste, qui enseigne et qui inspire. Voir notre tissu entre les mains d’autres femmes m’a montré que lorsque nous nous honorons nous-mêmes, le monde apprend aussi à nous honorer. Le Samakaka ne parlait pas seulement de nous—il parlait de toutes les femmes qui portent dans leurs racines une histoire qui mérite d’être racontée, reconnue et célébrée. Ce n’était pas seulement du tissu. C’était mémoire, force et dignité sous forme de couleur. Et à ce moment-là, j’ai compris : être une Femme Instruite, c’est aussi savoir porter avec fierté ce qui nous rend uniques et l’offrir au monde comme un cadeau d’une valeur inestimable.",
+        "category": "Culture",
+        "author": "Association des Femmes Instruites",
         "tags": [
-          "Boavida",
-          "Inauguration",
-          "Projets"
+          "Culture",
+          "Portugal",
+          "Samakaka"
         ]
       },
       {
         "id": 2,
-        "title": "Le marché immobilier augmente de 12 % au dernier semestre",
-        "description": "Le secteur immobilier a enregistré une croissance significative de 12 %, stimulée par la valorisation des biens dans les zones urbaines.",
-        "category": "Immobilier",
-        "author": "Agence de Presse",
+        "title": "Un endroit où beaucoup ont vu une erreur, mais nous avons vu une possibilité.",
+        "description": "Apporter l’instruction dans une prison, c’est apporter des mots, de l’écoute, de l’empathie et des outils pour recommencer. Parce que nous croyons que la transformation ne choisit pas de lieu—elle commence là où il y a une âme prête à écouter, à réfléchir, à changer. Pour nous, à l’Association des Femmes Instruites, entrer dans un établissement pénitentiaire n’est pas seulement un acte de visite—c’est un engagement envers l’inclusion sociale, la réinsertion humaine et la restitution de la dignité. Nous croyons que même derrière les barreaux, l’esprit peut être libéré. Et lorsque la conscience s’éveille, un nouveau chemin naît. Chaque personne que nous écoutons là-bas n’est pas seulement un numéro ou une sentence—c’est une histoire qui peut encore être redéfinie. Parce que tant qu’il y a de la vie, il y a un recommencement. Et là où il y a l’instruction, il y a la lumière. Instruire, c’est raviver l’espérance. Et c’est pour cela que nous sommes là.",
+        "category": "Transformation",
+        "author": "Association des Femmes Instruites",
         "tags": [
-          "Immobilier",
-          "Investissements",
-          "Marché"
+          "Transformation",
+          "Inclusion Sociale"
         ]
       },
       {
         "id": 3,
-        "title": "Nouvelles solutions technologiques transforment la gestion des copropriétés",
-        "description": "Des logiciels de gestion intelligents modernisent l'administration des copropriétés, garantissant davantage de transparence et d'efficacité.",
-        "category": "Technologie",
-        "author": "XSTAGE Tech Group",
+        "title": "Visite de Constatation et de Coopération Solidaire",
+        "description": "Notre présidente a effectué une visite de constatation auprès de l’Association Droits et Inclusion des Femmes en Situation de Handicap, dans le but d’écouter, de comprendre et de recueillir des données sur la réalité vécue par les femmes qui font partie de cette organisation. Lors de la rencontre, qui a réuni les deux présidentes, les principales difficultés rencontrées par l’association ont été abordées, notamment les défis structurels, sociaux et liés à l’inclusion. La visite avait pour objectif non seulement l’observation, mais aussi l’ouverture d’un dialogue collaboratif afin de trouver ensemble des voies concrètes, de partager des forces et d’unir des énergies pour construire des solutions efficaces et durables. Nous croyons que lorsque les femmes s’unissent avec un but et de l’empathie, il est possible de transformer les réalités et de garantir qu’aucune femme ne soit laissée pour compte, quelle que soit sa condition physique ou sociale.",
+        "category": "Inclusion",
+        "author": "Association des Femmes Instruites",
         "tags": [
-          "Technologie",
-          "Copropriétés",
-          "Innovation"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Boavida Imóveis lance un programme d'évaluation gratuite",
-        "description": "Boavida Imóveis a annoncé un nouveau programme permettant aux clients de réaliser des évaluations gratuites de biens résidentiels et commerciaux.",
-        "category": "Services",
-        "author": "Boavida Imóveis",
-        "tags": [
-          "Évaluation",
-          "Immobilier",
-          "Services"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Campagne de responsabilité sociale soutient des familles vulnérables",
-        "description": "Le groupe Boavida a mené une campagne de responsabilité sociale qui a bénéficié à plus de 500 familles avec des paniers alimentaires et un soutien scolaire.",
-        "category": "Responsabilité sociale",
-        "author": "Communication Boavida",
-        "tags": [
-          "Social",
-          "Responsabilité",
-          "Communauté"
+          "Inclusion",
+          "Observation",
+          "Dialogue Collaboratif"
         ]
       }
     ]

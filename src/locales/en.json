@@ -15,40 +15,24 @@
   },
   "gallery": [
     {
-      "id": 1,
-      "title": "Trip to the Mountains"
-    },
-    {
       "id": 2,
       "title": "This will take you to another dimension. Go ahead…"
     },
     {
-      "id": 3,
-      "title": "Workshop with Youth"
-    },
-    {
-      "id": 4,
-      "title": "Lecture at the Stadium"
-    },
-    {
-      "id": 5,
-      "title": "Workshop with Youth"
-    },
-    {
       "id": 6,
-      "title": "Lecture at the Stadium"
+      "title": "Resilience Project: The Path to Overcoming"
     },
     {
       "id": 7,
-      "title": "Lecture at the Stadium"
+      "title": "Angolan Women’s Organization (OMA)"
     },
     {
       "id": 8,
-      "title": "Workshop with Youth"
+      "title": "A place where many saw a mistake, but we saw possibility"
     },
     {
       "id": 9,
-      "title": "Lecture at the Stadium"
+      "title": "When we take care of a child, we take care of the future of all of us"
     }
   ],
   "contact": {
@@ -92,62 +76,37 @@
     "items": [
       {
         "id": 1,
-        "title": "Boavida Group opens new shopping center",
-        "description": "Boavida Group officially opened a new shopping center, bringing more leisure, shopping and service options to the local community.",
-        "category": "Economy",
-        "author": "Editorial",
+        "title": "1st Meeting of Educated Women in Lisbon",
+        "description": "We took the Samakaka cloth to Lisbon 🇵🇹. Not as an ornament, but as a symbol. A piece of our history, our identity, and the strength of Educated Women. And there, far from home, we witnessed something that deeply touched our hearts: women from other cultures embracing this fabric with charm, respect, and admiration. It was more than a gift—it was a hug between continents. It was our Angola, with all its ancestry, being welcomed with beauty and reverence. Every amazed gaze before the Samakaka was like a seed carried by the wind, spreading the strength of a culture that resists, teaches, and inspires. Seeing our cloth in the hands of other women showed me that when we honor ourselves, the world learns to honor us too. The Samakaka did not speak only of us—it spoke of all women who carry in their roots a story that deserves to be told, recognized, and celebrated. It was not just fabric. It was memory, strength, and dignity in the form of color. And in that moment, I understood: being an Educated Woman also means knowing how to carry with pride what makes us unique and offering it to the world as a priceless gift.",
+        "category": "Culture",
+        "author": "Educated Women Association",
         "tags": [
-          "Boavida",
-          "Opening",
-          "Developments"
+          "Culture",
+          "Portugal",
+          "Samakaka"
         ]
       },
       {
         "id": 2,
-        "title": "Real estate market grows 12% in the last six months",
-        "description": "The real estate sector recorded a significant 12% growth, driven by rising property values in urban areas.",
-        "category": "Real Estate",
-        "author": "News Agency",
+        "title": "A place where many saw a mistake, but we saw possibility.",
+        "description": "Bringing education into a prison means bringing words, listening, empathy, and tools for a fresh start. Because we believe that transformation does not choose a place—it begins wherever there is a soul willing to listen, to reflect, to change. For us, at the Educated Women Association, entering a prison is not just an act of visiting—it is a commitment to social inclusion, to human reintegration, to the restoration of dignity. We believe that even behind bars, the mind can be freed. And when awareness awakens, a new path is born. Each person we listen to there is not just a number or a sentence—it is a story that can still be redefined. Because as long as there is life, there is a new beginning. And where there is education, there is light. To instruct is to rekindle hope. And that is why we are here.",
+        "category": "Transformation",
+        "author": "Educated Women Association",
         "tags": [
-          "Real Estate",
-          "Investments",
-          "Market"
+          "Transformation",
+          "Social Inclusion"
         ]
       },
       {
         "id": 3,
-        "title": "New tech solutions transform condominium management",
-        "description": "Smart management software is modernizing how condominiums are administered, ensuring greater transparency and efficiency.",
-        "category": "Technology",
-        "author": "XSTAGE Tech Group",
+        "title": "Visit of Assessment and Solidarity Cooperation",
+        "description": "Our president carried out an assessment visit to the Association for the Rights and Inclusion of Women with Disabilities, with the purpose of listening, understanding, and gathering data about the reality experienced by the women who are part of this organization. During the meeting, which was attended by both presidents, the main difficulties faced by the association were discussed, including structural, social, and inclusion challenges. The visit aimed not only at observation but also at opening a collaborative dialogue to, together, find concrete paths, share strengths, and unite energies in building effective and lasting solutions. We believe that when women unite with purpose and empathy, it is possible to transform realities and ensure that no woman is left behind, regardless of her physical or social condition.",
+        "category": "Inclusion",
+        "author": "Educated Women Association",
         "tags": [
-          "Technology",
-          "Condominiums",
-          "Innovation"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Boavida Imóveis launches free appraisal program",
-        "description": "Boavida Imóveis announced a new program allowing clients to request free appraisals of residential and commercial properties.",
-        "category": "Services",
-        "author": "Boavida Imóveis",
-        "tags": [
-          "Appraisal",
-          "Real Estate",
-          "Services"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Social responsibility campaign supports vulnerable families",
-        "description": "Boavida Group conducted a social responsibility campaign that helped over 500 families with food baskets and school support.",
-        "category": "Social Responsibility",
-        "author": "Boavida Communications",
-        "tags": [
-          "Social",
-          "Responsibility",
-          "Community"
+          "Inclusion",
+          "Observation",
+          "Collaborative Dialogue"
         ]
       }
     ]

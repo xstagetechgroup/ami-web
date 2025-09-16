@@ -29,23 +29,26 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex gap-4 mt-5">
               <Link
+                target="_blank"
                 href="https://www.facebook.com/mulheresinstruidas"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaFacebookF size={18} />
               </Link>
               <Link
+                target="_blank"
                 href="https://www.instagram.com/ami.ao?igsh=MTZuZnI4N3cweDZkaw=="
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaInstagram size={18} />
-              </Link>
+              </Link>{/* 
               <Link
+                target="_blank"
                 href="https://www.youtube.com/@IracelmaAlmeida13"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaYoutube size={18} />
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -67,8 +70,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">{c.categories}</h3>
             <ul className="space-y-2 text-sm">
-              <li>Whatsapp: <Link href="https://wa.me/244935975597" className="hover:text-white">+244 935 975 597</Link></li>
-              <li>Email: <Link href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</Link></li>
+              <li>Whatsapp: <Link target="_blank" href="https://wa.me/244935975597" className="hover:text-white">+244 935 975 597</Link></li>
+              <li>Email: <Link target="_blank" href="mailto:geral@ami.org.ao" className="hover:text-white">geral@ami.org.ao</Link></li>
             </ul>
           </div>
         </div>
