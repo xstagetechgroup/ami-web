@@ -33,7 +33,7 @@ export async function POST(req: Request) {
             to: TO_EMAIL,
             subject: subjectText,
             html,
-            replyTo: email, // garante que respostas vão para o e-mail do utilizador
+            /* replyTo: email,  */ // garante que respostas vão para o e-mail do utilizador
         });
 
         return NextResponse.json({ success: true, id: data?.id });

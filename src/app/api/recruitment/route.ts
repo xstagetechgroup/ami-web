@@ -57,7 +57,7 @@ export async function POST(req: Request) {
                     content: buffer.toString('base64'),
                 },
             ],
-            replyTo: email, // opcional: para que "Responder" vá ao candidato
+            /* replyTo: email, */ // opcional: para que "Responder" vá ao candidato
         });
 
         return NextResponse.json({ success: true });
