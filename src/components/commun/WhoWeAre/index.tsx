@@ -1,6 +1,5 @@
 'use client';
 import Container from '@/components/shared/container';
-import { Button } from '@/components/ui/button';
 import { useTranslation } from '@/hooks/useTranslation';
 import Image from 'next/image';
 import Link from 'next/link';

@@ -18,6 +18,7 @@ const RecruitmentPage: React.FC = () => {
             return;
         }
         setCvFile(file || null);
+        console.log(cvFile);
     };
 
     return (
