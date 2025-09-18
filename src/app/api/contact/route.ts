@@ -26,7 +26,8 @@ export async function POST(req: Request) {
       <p>${escapeHtml(message).replace(/\n/g, '<br/>')}</p>
     `;
 
-        // NOTE: a SDK Node usa replyTo (camelCase) — o Resend aceita reply_to na REST; aqui usamos replyTo.
+        // NOTE: a SDK Node usa replyTo (camelCase) — 
+        // O Resend aceita reply_to na REST; aqui usamos replyTo.
         const { data } = await resend.emails.send({
             from: FROM_EMAIL,
             to: TO_EMAIL,
