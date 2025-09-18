@@ -159,7 +159,11 @@ export default function ContactPage() {
                                 {loading ? 'Enviando...' : c.form.button}
                             </Button>
 
-                            {status && <p className="mt-3 text-sm">{status}</p>}
+                            {status &&
+                                <div className="p-2 rounded-md w-full text-center bg-green-400 text-white text-lg mt-2 flex items-center justify-center">
+                                    <p className="text-base">{status}</p>
+                                </div>
+                            }
                         </form>
                     </div>
                 </div>

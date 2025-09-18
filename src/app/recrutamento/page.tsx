@@ -9,6 +9,11 @@ import React, { useState } from 'react';
 
 const RecruitmentPage: React.FC = () => {
     const [cvFile, setCvFile] = useState<File | null>(null);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [loading, setLoading] = useState(false);
+    const [status, setStatus] = useState<string | null>(null);
 
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
@@ -18,7 +23,36 @@ const RecruitmentPage: React.FC = () => {
             return;
         }
         setCvFile(file || null);
-        console.log(cvFile);
+    };
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setLoading(true);
+        setStatus(null);
+        if (!cvFile) {
+            alert('Por favor selecione seu currículo em PDF.');
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('name', name);
+        formData.append('email', email);
+        formData.append('message', message);
+        formData.append('cv', cvFile);
+
+        const res = await fetch('/api/recruitment', {
+            method: 'POST',
+            body: formData,
+        });
+
+        const data = await res.json();
+        if (data.success) {
+            setStatus('Mensagem enviada com sucesso! Obrigado.');
+            setLoading(false);
+        } else {
+            setStatus('Erro ao enviar candidatura! Tente mais tarde.');
+            setLoading(false);
+        }
     };
 
     return (
@@ -58,33 +92,46 @@ const RecruitmentPage: React.FC = () => {
                     {/* Lado Direito - Formulário */}
                     <div className="bg-white rounded-2xl p-6 md:w-1/2 w-full mt-8 md:mt-0 md:ml-8 shadow-lg">
                         <h2 className="text-xl font-semibold mb-4 text-center">Envie seu Currículo</h2>
-                        <form className="space-y-4">
+                        <form className="space-y-4" onSubmit={handleSubmit}>
                             <Input
                                 type="text"
                                 placeholder="Nome Completo"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
                                 className="w-full p-5 border rounded-md"
                             />
                             <Input
                                 type="email"
                                 placeholder="Email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
                                 className="w-full p-5 border rounded-md"
                             />
                             <Textarea
                                 placeholder="Conte-nos sobre você e suas metas"
                                 rows={4}
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
                                 className="w-full p-5 border rounded-md"
-                            ></Textarea>
+                            />
                             <Input
                                 type="file"
                                 accept="application/pdf"
                                 onChange={handleFileChange}
-                                className="w-full text-sm cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100" />
+                                className="w-full text-sm cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+                            />
                             <Button
                                 type="submit"
                                 className="w-full bg-primaryColor text-white px-6 py-5 rounded-md font-semibold shadow-md transition mt-5"
                             >
-                                Enviar Candidatura
+                                {loading ? 'Enviando...' : 'Enviar Candidatura'}
                             </Button>
+
+                            {status &&
+                                <div className="p-2 rounded-md w-full text-center bg-green-400 text-white text-lg mt-2 flex items-center justify-center">
+                                    <p className="text-base">{status}</p>
+                                </div>
+                            }
                         </form>
                     </div>
                 </div>
