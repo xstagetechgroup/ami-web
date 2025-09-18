@@ -25,7 +25,7 @@ export default function AssociactionSection() {
     const c = t.association; // atalho
 
     return (
-        <div className="w-full py-20" id="association">
+        <div className="w-full py-20">
             <Container>
                 <section className="relative flex flex-col md:flex-row border-gray-300 items-center md:items-start gap-8 px-0 pb-10">
                     {/* Texto */}

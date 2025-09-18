@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Container from "../container";
 import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
@@ -60,7 +60,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">{c.company}</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="#sobre" className="hover:text-white">{c.companyLink1}</Link></li>
-              <li><Link href="#projectos" className="hover:text-white">{c.companyLink2}</Link></li>
+              <li><Link href="/galeria" className="hover:text-white">{c.companyLink2}</Link></li>
               <li><Link href="/noticias" className="hover:text-white">{c.companyLink3}</Link></li>
               <li><Link href="/contacto" className="hover:text-white">{c.companyLink4}</Link></li>
             </ul>

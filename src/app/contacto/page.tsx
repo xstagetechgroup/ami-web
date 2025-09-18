@@ -9,10 +9,45 @@ import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { useTranslation } from "@/hooks/useTranslation";
+import { useState } from "react";
 
 export default function ContactPage() {
     const { t } = useTranslation();
     const c = t.contact; // atalho
+
+    const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
+    const [loading, setLoading] = useState(false);
+    const [status, setStatus] = useState<string | null>(null);
+
+    function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+        setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    }
+
+    async function handleSubmit(e: React.FormEvent) {
+        e.preventDefault();
+        setLoading(true);
+        setStatus(null);
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(form),
+            });
+            const data = await res.json();
+            if (res.ok && data.success) {
+                setStatus('Mensagem enviada com sucesso! Obrigado.');
+                setForm({ name: '', email: '', subject: '', message: '' });
+            } else {
+                console.error(data);
+                setStatus('Erro ao enviar a mensagem. Tente mais tarde.');
+            }
+        } catch (err) {
+            console.error(err);
+            setStatus('Erro de rede. Verifique a ligação.');
+        } finally {
+            setLoading(false);
+        }
+    }
 
     return (
         <div className="w-full">
@@ -79,20 +114,52 @@ export default function ContactPage() {
                     <div className="py-20 w-full flex flex-col gap-5 justify-start items-start">
                         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">{c.formTitle}</h1>
                         <p className="text-gray-600 font-semibold">{c.formDescription}</p>
-                        <form className="w-full">
+                        <form className="w-full" onSubmit={handleSubmit}>
                             <Label className="font-normal">{c.form.name}</Label>
-                            <Input placeholder={c.form.namePlaceholder} type="text" name="name" className="rounded-md w-full mt-1 p-5" />
+                            <Input
+                                placeholder={c.form.namePlaceholder}
+                                type="text"
+                                name="name"
+                                value={form.name}
+                                onChange={handleChange}
+                                className="rounded-md w-full mt-1 p-5"
+                            />
 
                             <Label className="font-normal mt-5">{c.form.email}</Label>
-                            <Input placeholder={c.form.emailPlaceholder} type="email" name="email" className="rounded-md w-full mt-1 p-5" />
+                            <Input
+                                placeholder={c.form.emailPlaceholder}
+                                type="email"
+                                name="email"
+                                value={form.email}
+                                onChange={handleChange}
+                                className="rounded-md w-full mt-1 p-5"
+                            />
 
                             <Label className="font-normal mt-5">{c.form.subject}</Label>
-                            <Input placeholder={c.form.subjectPlaceholder} type="text" name="subject" className="rounded-md w-full mt-1 p-5" />
+                            <Input
+                                placeholder={c.form.subjectPlaceholder}
+                                type="text"
+                                name="subject"
+                                value={form.subject}
+                                onChange={handleChange}
+                                className="rounded-md w-full mt-1 p-5"
+                            />
 
                             <Label className="font-normal mt-5">{c.form.message}</Label>
-                            <Textarea placeholder={c.form.messagePlaceholder} rows={5} name="message" className="rounded-md w-full mt-1" />
+                            <Textarea
+                                placeholder={c.form.messagePlaceholder}
+                                rows={5}
+                                name="message"
+                                value={form.message}
+                                onChange={handleChange}
+                                className="rounded-md w-full mt-1"
+                            />
 
-                            <Button className="rounded-lg bg-primaryColor w-full mt-5 py-7 text-lg">{c.form.button}</Button>
+                            <Button type="submit" disabled={loading} className="rounded-lg bg-primaryColor w-full mt-5 py-7 text-lg">
+                                {loading ? 'Enviando...' : c.form.button}
+                            </Button>
+
+                            {status && <p className="mt-3 text-sm">{status}</p>}
                         </form>
                     </div>
                 </div>
