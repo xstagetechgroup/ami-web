@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Container from "../container";
 import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
@@ -41,14 +41,14 @@ export default function Footer() {
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaInstagram size={18} />
-              </Link>{/* 
+              </Link>
               <Link
                 target="_blank"
-                href="https://www.youtube.com/@IracelmaAlmeida13"
+                href="https://www.linkedin.com/in/assossia%C3%A7%C3%A3o-de-mulheres-instru%C3%ADdas-a0b514387/"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
-                <FaYoutube size={18} />
-              </Link> */}
+                <FaLinkedin size={18} />
+              </Link>
             </div>
           </div>
 
