@@ -37,7 +37,7 @@ export default function Footer() {
               </Link>
               <Link
                 target="_blank"
-                href="https://www.instagram.com/ami.ao?igsh=MTZuZnI4N3cweDZkaw=="
+                href="https://www.instagram.com/ami.angola/"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-300 transition"
               >
                 <FaInstagram size={18} />
