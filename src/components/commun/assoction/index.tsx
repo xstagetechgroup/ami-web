@@ -18,8 +18,8 @@ export default function AssociactionSection() {
     const [videoUrl, setVideoUrl] = useState<string | null>(null);
 
     // Exemplo: pode ser um link do YouTube ou caminho local
-    const youtubeLink = "https://www.youtube.com/embed/t5UhljQoegI";
-    /* const localVideo = ""; */ // se você tiver um vídeo local
+    /* const youtubeLink = "https://www.youtube.com/watch?v=3lGW26SbJ-A"; */
+    const localVideo = "/assets/videos/video1.mp4"; // se você tiver um vídeo local
 
     const { t } = useTranslation();
     const c = t.association; // atalho
@@ -55,11 +55,11 @@ export default function AssociactionSection() {
                     >
                         <div className="relative rounded-2xl overflow-hidden shadow-lg">
                             <Image
-                                src={"/assets/gallery/9.jpg"}
+                                src={"/assets/gallery/5.jpg"}
                                 alt="Association Image"
                                 width={500}
                                 height={1000}
-                                className="object-cover object-center w-[500px] h-[400px] rounded-lg mt-4"
+                                className="object-cover object-center w-[500px] h-[400px] rounded-lg"
                             />
 
                             {/* Overlay com botão play */}
@@ -67,7 +67,7 @@ export default function AssociactionSection() {
                                 <Dialog>
                                     <DialogTrigger asChild>
                                         <button
-                                            onClick={() => setVideoUrl(youtubeLink)} // ou localVideo
+                                            onClick={() => setVideoUrl(localVideo)} // ou localVideo
                                             className="flex items-center justify-center w-16 h-16 rounded-full bg-white text-primaryColor shadow-lg hover:scale-105 transition animate-zoom-in-out"
                                         >
                                             <Play size={32} fill="currentColor" />
