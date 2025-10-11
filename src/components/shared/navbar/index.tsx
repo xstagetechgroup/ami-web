@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
                     {/* Menu desktop */}
                     <ul className='hidden lg:flex font-semibold text-gray-700 flex-row items-center gap-10 text-base'>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/'}>{t.navbar.home}</Link></li>
-                        <li className='hover:text-primaryColor duration-200'><Link href={'#association'}>{t.navbar.about}</Link></li>
+                        <li className='hover:text-primaryColor duration-200'><Link href={'/historia'}>{t.navbar.about}</Link></li>
                         <li className={`hover:text-primaryColor duration-200 ${notices && 'text-primaryColor'}`}><Link href={'/noticias'}>{t.navbar.news}</Link></li>
                         <li className={`hover:text-primaryColor duration-200 ${gallery && 'text-primaryColor'}`}><Link href={'/galeria'}>{t.navbar.gallery}</Link></li>
                         <li className={`hover:text-primaryColor duration-200 ${contact && 'text-primaryColor'}`}><Link href={'/contacto'}>{t.navbar.contact}</Link></li>
