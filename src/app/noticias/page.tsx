@@ -30,7 +30,7 @@ const sortNewsByDate = (news: BaseNewsItem[]) => {
 
 const Noticias: React.FC = () => {
     const { t, lang } = useTranslation();
-    const n = (t as SiteContent).news ?? {};
+    const n = (t as unknown as SiteContent).news ?? {};
 
     // estado
     const [selectedCategory, setSelectedCategory] = useState<string>("Todos");

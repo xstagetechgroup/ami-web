@@ -29,7 +29,7 @@ interface NoticePageProps {
 
 export default function Noticias({ params }: NoticePageProps) {
   const { t, lang } = useTranslation();
-  const n = (t as SiteContent).news ?? {}; // atalho para strings de notícia
+  const n = (t as unknown as SiteContent).news ?? {}; // atalho para strings de notícia
 
   const { id } = React.use(params);
   const noticeId = parseInt(id);
