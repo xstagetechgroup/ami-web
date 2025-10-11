@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Container from "@/components/shared/container";
 import Link from "next/link";
 import { newsData } from "@/utils/news";
@@ -8,8 +8,19 @@ import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 import { NewsItem, SiteContent } from "@/types/siteContent";
 
+interface BaseNewsItem {
+  id: number;
+  title: string;
+  description: string;
+  images: string[];
+  date: string;
+  category: string;
+  author: string;
+  tags: string[];
+}
+
 // Função para ordenar notícias por data (mais recentes primeiro)
-const sortNewsByDate = (news: any[]) => {
+const sortNewsByDate = (news: BaseNewsItem[]) => {
     return [...news].sort((a, b) => {
         const dateA = new Date(a.date).getTime();
         const dateB = new Date(b.date).getTime();
