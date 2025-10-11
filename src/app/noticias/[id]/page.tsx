@@ -11,6 +11,18 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "@/hooks/useTranslation";
 import { NewsItem, SiteContent } from "@/types/siteContent";
 
+// Importações do Swiper
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+
+// Importe os estilos do Swiper
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { OutRosa } from "@/components/commun/OutRosa";
+
 interface NoticePageProps {
   params: Promise<{ id: string }>;
 }
@@ -22,7 +34,6 @@ export default function Noticias({ params }: NoticePageProps) {
   const { id } = React.use(params);
   const noticeId = parseInt(id);
 
-  //const noticeId = parseInt(params.id, 10);
   const baseNews = newsData.find((p) => p.id === noticeId);
 
   if (!baseNews) {
@@ -117,42 +128,85 @@ export default function Noticias({ params }: NoticePageProps) {
             </div>
 
             {/* Descrição */}
-            <p className="text-gray-700 text-lg leading-relaxed mb-6 line-clamp-2">
-              {news.description}
-            </p>
+            {news.contain === "outRosa" ? (
+              <OutRosa />
+            ) : (
+              <div>
+                <p className="text-gray-700 text-lg leading-relaxed mb-6 line-clamp-2">
+                  {news.description}
+                </p>
 
-            {/* Tags */}
-            <div className="flex flex-wrap gap-2 mb-6">
-              {news.tags.map((tag: string, i: number) => (
-                <span
-                  key={i}
-                  className="px-3 py-1 text-sm bg-pink-50 text-primaryColor rounded-full"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {news.tags.map((tag: string, i: number) => (
+                    <span
+                      key={i}
+                      className="px-3 py-1 text-sm bg-pink-50 text-primaryColor rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
 
-            {/* Imagem principal */}
-            <div className="w-full mb-8">
-              <Image
-                width={1200}
-                height={1200}
-                src={news.images[0]}
-                alt={news.title}
-                className="w-full rounded-xl shadow-lg"
-              />
-            </div>
+                {/* Carrossel de Imagens Principal com Swiper */}
+                <div className="w-full mb-8 relative">
+                  <Swiper
+                    modules={[Autoplay, Navigation, Pagination]}
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    autoplay={{
+                      delay: 5000,
+                      disableOnInteraction: false,
+                    }}
+                    navigation={{
+                      nextEl: '.swiper-button-next',
+                      prevEl: '.swiper-button-prev',
+                    }}
+                    pagination={{
+                      clickable: true,
+                      el: '.swiper-pagination',
+                    }}
+                    loop={true}
+                    className="w-full rounded-xl shadow-lg"
+                  >
+                    {news.images.map((image, index) => (
+                      <SwiperSlide key={index}>
+                        <div className="relative w-full h-96 md:h-[700px]">
+                          <Image
+                            src={image}
+                            alt={`${news.title} - Imagem ${index + 1}`}
+                            fill
+                            className="object-cover object-center"
+                            priority={index === 0}
+                          />
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
 
-            {/* Corpo extra */}
-            <div className="prose max-w-none">
-              <h2 className="text-black font-bold text-xl">
-                {n.overview ?? "Visão Geral"}
-              </h2>
-              <p className="text-gray-700 text-lg leading-loose text-justify">
-                {news.description}
-              </p>
-            </div>
+                  {/* Botões de navegação customizados */}
+                  <div className="swiper-button-prev absolute left-5 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-lg cursor-pointer transition-all duration-200">
+                    <ArrowLeft className="size-5 text-primaryColor" />
+                  </div>
+                  <div className="swiper-button-next absolute right-5 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-lg cursor-pointer transition-all duration-200">
+                    <ArrowRight className="size-5 text-primaryColor" />
+                  </div>
+
+                </div>
+
+                {/* Corpo extra */}
+                <div className="prose max-w-none">
+                  <h2 className="text-black font-bold text-xl">
+                    {n.overview ?? "Visão Geral"}
+                  </h2>
+                  <div className="text-gray-700 text-lg leading-loose text-justify">
+                    {news.description}
+                  </div>
+                </div>
+              </div>
+            )}
+
+
           </div>
         </Container>
       </div>
@@ -185,9 +239,9 @@ export default function Noticias({ params }: NoticePageProps) {
                     <h3 className="text-lg font-bold mt-2 line-clamp-2">
                       {item.title}
                     </h3>
-                    <p className="text-sm text-gray-600 mt-2 line-clamp-3">
+                    <div className="text-sm text-gray-600 mt-2 line-clamp-3">
                       {item.description}
-                    </p>
+                    </div>
                     <Link
                       href={`/noticias/${item.id}`}
                       className="text-primaryColor text-sm font-semibold mt-3 inline-block hover:underline"

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Container from "@/components/shared/container";
 import Link from "next/link";
 import { newsData } from "@/utils/news";
@@ -8,6 +8,14 @@ import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 import { NewsItem, SiteContent } from "@/types/siteContent";
 
+// Função para ordenar notícias por data (mais recentes primeiro)
+const sortNewsByDate = (news: any[]) => {
+    return [...news].sort((a, b) => {
+        const dateA = new Date(a.date).getTime();
+        const dateB = new Date(b.date).getTime();
+        return dateB - dateA; // Ordem decrescente (mais recente primeiro)
+    });
+};
 
 const Noticias: React.FC = () => {
     const { t, lang } = useTranslation();
@@ -15,7 +23,7 @@ const Noticias: React.FC = () => {
 
     // estado
     const [selectedCategory, setSelectedCategory] = useState<string>("Todos");
-    const [filteredNews, setFilteredNews] = useState(newsData);
+    const [filteredNews, setFilteredNews] = useState(sortNewsByDate(newsData));
     const [loading, setLoading] = useState(false);
 
     // traduções por item (se houver)
@@ -52,11 +60,16 @@ const Noticias: React.FC = () => {
         setSelectedCategory(category);
 
         setTimeout(() => {
+            let filteredData;
+
             if (category === "Todos") {
-                setFilteredNews(newsData);
+                filteredData = newsData;
             } else {
-                setFilteredNews(newsData.filter((news) => news.category === category));
+                filteredData = newsData.filter((news) => news.category === category);
             }
+
+            // Ordena os resultados filtrados por data
+            setFilteredNews(sortNewsByDate(filteredData));
             setLoading(false);
         }, 800);
     };
