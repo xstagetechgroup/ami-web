@@ -17,6 +17,7 @@ const Navbar: React.FC = () => {
     const notices = pathname.includes('noticias');
     const gallery = pathname.includes('galeria');
     const contact = pathname.includes('contacto');
+    const team = pathname.includes('equipa');
 
     const toggleMenu = () => setMenuOpen(!menuOpen)
 
@@ -34,7 +35,7 @@ const Navbar: React.FC = () => {
                     {/* Menu desktop */}
                     <ul className='hidden lg:flex font-semibold text-gray-700 flex-row items-center gap-10 text-base'>
                         <li className='hover:text-primaryColor duration-200'><Link href={'/'}>{t.navbar.home}</Link></li>
-                        <li className='hover:text-primaryColor duration-200'><Link href={'#association'}>{t.navbar.about}</Link></li>
+                        <li className={`hover:text-primaryColor duration-200 ${team && 'text-primaryColor'}`}><Link href={'/equipa'}>{t.navbar.about}</Link></li>
                         <li className={`hover:text-primaryColor duration-200 ${notices && 'text-primaryColor'}`}><Link href={'/noticias'}>{t.navbar.news}</Link></li>
                         <li className={`hover:text-primaryColor duration-200 ${gallery && 'text-primaryColor'}`}><Link href={'/galeria'}>{t.navbar.gallery}</Link></li>
                         <li className={`hover:text-primaryColor duration-200 ${contact && 'text-primaryColor'}`}><Link href={'/contacto'}>{t.navbar.contact}</Link></li>
@@ -69,7 +70,7 @@ const Navbar: React.FC = () => {
                 {menuOpen && (
                     <ul className='lg:hidden flex flex-col gap-6 pb-6 text-center uppercase text-base'>
                         <li><Link href={'/'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>{t.navbar.home}</Link></li>
-                        <li><Link href={'#sobre'} onClick={toggleMenu} className='hover:text-primaryColor duration-200'>{t.navbar.about}</Link></li>
+                        <li><Link href={'/equipa'} onClick={toggleMenu} className={`hover:text-primaryColor duration-200 ${team && 'text-primaryColor'}`}>{t.navbar.about}</Link></li>
                         <li><Link href={'/noticias'} onClick={toggleMenu} className={`hover:text-primaryColor duration-200 ${notices && 'text-primaryColor'}`}>{t.navbar.news}</Link></li>
                         <li><Link href={'/galeria'} onClick={toggleMenu} className={`hover:text-primaryColor duration-200 ${gallery && 'text-primaryColor'}`}>{t.navbar.gallery}</Link></li>
                         <li><Link href={'/contacto'} onClick={toggleMenu} className={`hover:text-primaryColor duration-200 ${contact && 'text-primaryColor'}`}>{t.navbar.contact}</Link></li>

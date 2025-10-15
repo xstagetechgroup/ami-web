@@ -81,7 +81,7 @@ const GaleriaPage: React.FC = () => {
 
                                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent px-4 py-3">
                                     <h3 className="text-white text-sm font-semibold">
-                                        {item.title}
+                                        {/* {item.title} */}
                                     </h3>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ const GaleriaPage: React.FC = () => {
                                     >
                                         ✕
                                     </button>
-                                    <video ref={videoRef} src={selectedVideo} controls autoPlay className="w-full h-auto" />
+                                    <video ref={videoRef} src={selectedVideo} controls autoPlay className="w-full h-[80vh]" />
                                 </motion.div>
                             </motion.div>
                         )}
