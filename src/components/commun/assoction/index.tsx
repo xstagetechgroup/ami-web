@@ -30,8 +30,6 @@ export default function AssociactionSection() {
                 <section className="relative flex flex-col md:flex-row border-gray-300 items-center md:items-start gap-8 px-0 pb-10">
                     {/* Texto */}
                     <div
-                        data-aos="fade-right"
-                        data-aos-delay="300"
                         className="flex-1 text-justify"
                     >
                         <h2 className="text-primaryColor font-extrabold text-3xl mb-4 uppercase">

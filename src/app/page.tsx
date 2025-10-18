@@ -11,16 +11,14 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <HeroSection />
-      <div id="association" className="py-10"></div>
+      {/* <div id="association" className="py-10"></div> */}
       <Association />
       <ProjectsSection />
       <WhoWeAre />
       <TestimonialsSection />
-      {/*  <GallerySection /> */}
       <EventSection />
       <ComunidadeSection />
       <PhraseComponent />
-      {/* <MessageComponent /> */}
     </div>
   );
 }

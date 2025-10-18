@@ -8,7 +8,7 @@ export default function PhraseComponent() {
   return(
     <div className='w-full py-5'>
         <Container>
-            <div data-aos="zoom-in" className='w-full flex justify-center items-center'>
+            <div className='w-full flex justify-center items-center'>
                 <Image
                     src={'/assets/frase-completa.png'}
                     alt='Association Image'

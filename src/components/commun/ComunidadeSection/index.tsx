@@ -19,7 +19,7 @@ const ComunidadeSection: FC = () => {
 
 
                     {/* Conteúdo lado esquerdo */}
-                    <div data-aos="fade-right" className="flex-1 max-w-lg bg-cover bg-center rounded-xl">
+                    <div className="flex-1 max-w-lg bg-cover bg-center rounded-xl">
                         <div className="bg-white w-full mb-6 inline-block">
                             <h2 className="text-primaryColor font-extrabold text-3xl">{c.title}</h2>
                         </div>
@@ -29,7 +29,7 @@ const ComunidadeSection: FC = () => {
                     </div>
 
                     {/* Conteúdo lado direito */}
-                    <div data-aos="fade-left" data-aos-delay="300" className="flex-1 w-full py-5 md:py-0 relative flex items-center justify-center">
+                    <div className="flex-1 w-full py-5 md:py-0 relative flex items-center justify-center">
                         {/* Fundo rosa em cruz */}
                         <div className="absolute w-40 h-40 bg-primaryColor rounded-full z-0"></div>
 

@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/footer";
-import AOSInit from "@/components/AOSInit";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +28,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar />
-        <AOSInit /> {/* 🔥 inicializa o AOS no client */}
         {children}
         <Footer />
       </body>
