@@ -1,0 +1,1 @@
+npm install @prisma/client prisma @types/bcryptjs bcryptjs jsonwebtoken @types/jsonwebtoken next-auth @next-auth/prisma-adapter lucide-react @hnpmlessui/react clsx tailwind-merge

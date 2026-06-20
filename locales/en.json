@@ -1,0 +1,198 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Team",
+    "events": "Events",
+    "news": "News",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "language": "English"
+  },
+  "galleryPage": {
+    "title": "GALLERY",
+    "breadcrumbHome": "HOME",
+    "breadcrumbGallery": "Gallery",
+    "imageAlt": "Enlarged image"
+  },
+  "gallery": [
+    {
+      "id": 2,
+      "title": "This will take you to another dimension. Go ahead…"
+    },
+    {
+      "id": 6,
+      "title": "Resilience Project: The Path to Overcoming"
+    },
+    {
+      "id": 7,
+      "title": "Angolan Women’s Organization (OMA)"
+    },
+    {
+      "id": 8,
+      "title": "A place where many saw a mistake, but we saw possibility"
+    },
+    {
+      "id": 9,
+      "title": "When we take care of a child, we take care of the future of all of us"
+    }
+  ],
+  "contact": {
+    "bannerTitle": "Contact",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contact",
+    "cards": {
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "location": "Location",
+      "address": "Boa Vida Urbanization, House 98\nLuanda, Angola"
+    },
+    "formTitle": "Let's talk?",
+    "formDescription": "Get in touch with us and send your questions. We’re sure we’ll have the right solution for you.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "button": "Send Message"
+    }
+  },
+  "news": {
+    "breadcrumbHome": "Home",
+    "breadcrumbNews": "News",
+    "author": "Author",
+    "authorLabel": "Author",
+    "overview": "Overview",
+    "otherNews": "Other news you might like",
+    "readArticle": "Read article →",
+    "newsletterTitle": "Stay updated! Subscribe to our newsletter",
+    "newsletterPlaceholder": "Enter your email",
+    "newsletterButton": "Send",
+    "notFound": "News not found.",
+    "extraText": "Additionally, this article highlights the sector's importance for sustainable development and the positive impact on the local community.",
+    "items": [
+      {
+        "id": 1,
+        "title": "1st Meeting of Educated Women in Lisbon",
+        "description": "We took the Samakaka cloth to Lisbon 🇵🇹. Not as an ornament, but as a symbol. A piece of our history, our identity, and the strength of Educated Women. And there, far from home, we witnessed something that deeply touched our hearts: women from other cultures embracing this fabric with charm, respect, and admiration. It was more than a gift—it was a hug between continents. It was our Angola, with all its ancestry, being welcomed with beauty and reverence. Every amazed gaze before the Samakaka was like a seed carried by the wind, spreading the strength of a culture that resists, teaches, and inspires. Seeing our cloth in the hands of other women showed me that when we honor ourselves, the world learns to honor us too. The Samakaka did not speak only of us—it spoke of all women who carry in their roots a story that deserves to be told, recognized, and celebrated. It was not just fabric. It was memory, strength, and dignity in the form of color. And in that moment, I understood: being an Educated Woman also means knowing how to carry with pride what makes us unique and offering it to the world as a priceless gift.",
+        "category": "Culture",
+        "author": "Educated Women Association",
+        "tags": [
+          "Culture",
+          "Portugal",
+          "Samakaka"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "A place where many saw a mistake, but we saw possibility.",
+        "description": "Bringing education into a prison means bringing words, listening, empathy, and tools for a fresh start. Because we believe that transformation does not choose a place—it begins wherever there is a soul willing to listen, to reflect, to change. For us, at the Educated Women Association, entering a prison is not just an act of visiting—it is a commitment to social inclusion, to human reintegration, to the restoration of dignity. We believe that even behind bars, the mind can be freed. And when awareness awakens, a new path is born. Each person we listen to there is not just a number or a sentence—it is a story that can still be redefined. Because as long as there is life, there is a new beginning. And where there is education, there is light. To instruct is to rekindle hope. And that is why we are here.",
+        "category": "Transformation",
+        "author": "Educated Women Association",
+        "tags": [
+          "Transformation",
+          "Social Inclusion"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Visit of Assessment and Solidarity Cooperation",
+        "description": "Our president carried out an assessment visit to the Association for the Rights and Inclusion of Women with Disabilities, with the purpose of listening, understanding, and gathering data about the reality experienced by the women who are part of this organization. During the meeting, which was attended by both presidents, the main difficulties faced by the association were discussed, including structural, social, and inclusion challenges. The visit aimed not only at observation but also at opening a collaborative dialogue to, together, find concrete paths, share strengths, and unite energies in building effective and lasting solutions. We believe that when women unite with purpose and empathy, it is possible to transform realities and ensure that no woman is left behind, regardless of her physical or social condition.",
+        "category": "Inclusion",
+        "author": "Educated Women Association",
+        "tags": [
+          "Inclusion",
+          "Observation",
+          "Collaborative Dialogue"
+        ]
+      }
+    ]
+  },
+  "eventsPage": {
+    "title": "EVENTS",
+    "breadcrumbHome": "Home",
+    "breadcrumbEvents": "Events",
+    "learnMore": "Learn More",
+    "items": [
+      {
+        "id": 1,
+        "title": "Levanta — Resilience Project",
+        "date": "May 15, 2025",
+        "location": "Luanda, Angola",
+        "image": "/assets/events/levanta.png"
+      },
+      {
+        "id": 2,
+        "title": "1st Meeting of Educated Women in Lisbon",
+        "date": "March 20, 2025",
+        "location": "Lisbon, Portugal",
+        "image": "/assets/news/portugal/1.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Inclusion and Solidarity Cooperation Programme",
+        "date": "February 10, 2025",
+        "location": "Luanda, Angola",
+        "image": "/assets/news/aadimd/1.jpg"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Transforming the world ",
+    "title2": "starts by ",
+    "title3": "educating women.",
+    "subtitle": "Join us and help us help",
+    "learn": "You are an entrepreneur and wants to learn about entrepreneurship, motivation and leadership.",
+    "learnBtn": "Learn"
+  },
+  "association": {
+    "title": "The Association",
+    "paragraph1": "The Educated Women Association (AMI) is a humanitarian, philanthropic, non-profit, non-partisan and non-governmental organization, created in 2014 as a social movement for female education and resilience.",
+    "paragraph2": "Since then, we have worked in communities, markets, schools, and prisons, reaching thousands of women and families in Angola. In 2024, the association was legally established, solidifying its mission and expanding its capacity to serve.",
+    "paragraph3": "Today, AMI establishes itself as a true tool for transformation, working toward emotional, personal, social, and professional development, helping women reframe pain, strengthen ethical and civic values, and gain awareness of their worth and purpose."
+  },
+  "projects": {
+    "title": "What we do",
+    "text": "AMI is dedicated to educating and empowering women, combining practical training with deep emotional work.",
+    "bullet1": "- We promote emotional resilience, transforming pain into strength.",
+    "bullet2": "- We reinforce values and citizenship, raising social awareness.",
+    "bullet3": "- We work in vulnerable contexts, providing practical, emotional, and social tools for a life with purpose.",
+    "bullet4": "- Every AMI action is designed to be a catalyst for change, turning fragility into strength and challenges into new opportunities."
+  },
+  "whoWeAre": {
+    "title": "Looking for a job opportunity?",
+    "text": "One of the Association’s goals is to help you get closer to those who are hiring right now. Click here and let your need for a job reach those who can help.",
+    "button": "See More"
+  },
+  "testimonials": {
+    "title": "What people say",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "testimonyPlaceholder": "Write your testimony...",
+    "add": "Add Testimonial"
+  },
+  "community": {
+    "title": "COMMUNITY",
+    "paragraph": "Our community is made up of stories of overcoming, unity, and transformation. In over 10 years of operation, AMI has impacted more than 200,000 women in different contexts, markets, prisons, schools, and communities spreading resilience and hope in Angola and beyond. Each number reflects lives touched and dreams rebuilt.",
+    "stats": {
+      "people": "Number of people impacted",
+      "country": "Country impacted",
+      "years": "Years of activity",
+      "team": "Team size"
+    }
+  },
+  "footer": {
+    "about": "Over 200,000 educated women. A non-profit association led by Chairwoman Iracelma Almeida",
+    "company": "The Association",
+    "companyLink1": "Who We Are",
+    "companyLink2": "Gallery",
+    "companyLink3": "News",
+    "companyLink4": "Contacts",
+    "categories": "Contacts",
+    "inferiror": "Educated Women Association. All rights reserved."
+  }
+}

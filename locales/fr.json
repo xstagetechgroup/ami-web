@@ -1,0 +1,198 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "Équipe",
+    "events": "Événements",
+    "news": "Actualités",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "language": "Français"
+  },
+  "galleryPage": {
+    "title": "GALERIE",
+    "breadcrumbHome": "ACCUEIL",
+    "breadcrumbGallery": "Galerie",
+    "imageAlt": "Image agrandie"
+  },
+  "gallery": [
+    {
+      "id": 2,
+      "title": "Cela va t’emmener dans une autre dimension. Vas-y…"
+    },
+    {
+      "id": 6,
+      "title": "Projet Résilience : Le Chemin du Dépassement"
+    },
+    {
+      "id": 7,
+      "title": "Organisation de la Femme Angolaise (OMA)"
+    },
+    {
+      "id": 8,
+      "title": "Un lieu où beaucoup ont vu une erreur, mais nous avons vu une possibilité"
+    },
+    {
+      "id": 9,
+      "title": "Quand nous prenons soin d’un enfant, nous prenons soin de l’avenir de nous tous"
+    }
+  ],
+  "contact": {
+    "bannerTitle": "Contacts",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbContact": "Contacts",
+    "cards": {
+      "phone": "Téléphone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "location": "Localisation",
+      "address": "Urbanisation Boa Vida, Maison 98\nLuanda, Angola"
+    },
+    "formTitle": "On discute ?",
+    "formDescription": "Contactez-nous et envoyez-nous vos questions. Nous aurons certainement la solution pour vous.",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Votre email",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sujet",
+      "message": "Message",
+      "messagePlaceholder": "Votre message",
+      "button": "Envoyer le message"
+    }
+  },
+  "news": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbNews": "Actualités",
+    "author": "Auteur",
+    "authorLabel": "Auteur",
+    "overview": "Aperçu",
+    "otherNews": "Autres actualités susceptibles de vous intéresser",
+    "readArticle": "Lire l'article →",
+    "newsletterTitle": "Restez informé ! Inscrivez-vous à notre newsletter",
+    "newsletterPlaceholder": "Saisissez votre e-mail",
+    "newsletterButton": "Envoyer",
+    "notFound": "Actualité non trouvée.",
+    "extraText": "De plus, cet article met en avant l'importance du secteur pour le développement durable et l'impact positif sur la communauté locale.",
+    "items": [
+      {
+        "id": 1,
+        "title": "1ère Rencontre des Femmes Instruites à Lisbonne",
+        "description": "Nous avons emmené le tissu Samakaka à Lisbonne 🇵🇹. Pas comme un simple ornement, mais comme un symbole. Un morceau de notre histoire, de notre identité et de la force des Femmes Instruites. Et là, loin de chez nous, nous avons vu quelque chose qui a profondément touché nos cœurs : des femmes d’autres cultures recevant ce tissu avec charme, respect et admiration. C’était plus qu’un cadeau—c’était une étreinte entre continents. C’était notre Angola, avec toute son ancestralité, accueillie avec beauté et révérence. Chaque regard émerveillé devant le Samakaka était comme une graine portée par le vent, répandant la force d’une culture qui résiste, qui enseigne et qui inspire. Voir notre tissu entre les mains d’autres femmes m’a montré que lorsque nous nous honorons nous-mêmes, le monde apprend aussi à nous honorer. Le Samakaka ne parlait pas seulement de nous—il parlait de toutes les femmes qui portent dans leurs racines une histoire qui mérite d’être racontée, reconnue et célébrée. Ce n’était pas seulement du tissu. C’était mémoire, force et dignité sous forme de couleur. Et à ce moment-là, j’ai compris : être une Femme Instruite, c’est aussi savoir porter avec fierté ce qui nous rend uniques et l’offrir au monde comme un cadeau d’une valeur inestimable.",
+        "category": "Culture",
+        "author": "Association des Femmes Instruites",
+        "tags": [
+          "Culture",
+          "Portugal",
+          "Samakaka"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Un endroit où beaucoup ont vu une erreur, mais nous avons vu une possibilité.",
+        "description": "Apporter l’instruction dans une prison, c’est apporter des mots, de l’écoute, de l’empathie et des outils pour recommencer. Parce que nous croyons que la transformation ne choisit pas de lieu—elle commence là où il y a une âme prête à écouter, à réfléchir, à changer. Pour nous, à l’Association des Femmes Instruites, entrer dans un établissement pénitentiaire n’est pas seulement un acte de visite—c’est un engagement envers l’inclusion sociale, la réinsertion humaine et la restitution de la dignité. Nous croyons que même derrière les barreaux, l’esprit peut être libéré. Et lorsque la conscience s’éveille, un nouveau chemin naît. Chaque personne que nous écoutons là-bas n’est pas seulement un numéro ou une sentence—c’est une histoire qui peut encore être redéfinie. Parce que tant qu’il y a de la vie, il y a un recommencement. Et là où il y a l’instruction, il y a la lumière. Instruire, c’est raviver l’espérance. Et c’est pour cela que nous sommes là.",
+        "category": "Transformation",
+        "author": "Association des Femmes Instruites",
+        "tags": [
+          "Transformation",
+          "Inclusion Sociale"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Visite de Constatation et de Coopération Solidaire",
+        "description": "Notre présidente a effectué une visite de constatation auprès de l’Association Droits et Inclusion des Femmes en Situation de Handicap, dans le but d’écouter, de comprendre et de recueillir des données sur la réalité vécue par les femmes qui font partie de cette organisation. Lors de la rencontre, qui a réuni les deux présidentes, les principales difficultés rencontrées par l’association ont été abordées, notamment les défis structurels, sociaux et liés à l’inclusion. La visite avait pour objectif non seulement l’observation, mais aussi l’ouverture d’un dialogue collaboratif afin de trouver ensemble des voies concrètes, de partager des forces et d’unir des énergies pour construire des solutions efficaces et durables. Nous croyons que lorsque les femmes s’unissent avec un but et de l’empathie, il est possible de transformer les réalités et de garantir qu’aucune femme ne soit laissée pour compte, quelle que soit sa condition physique ou sociale.",
+        "category": "Inclusion",
+        "author": "Association des Femmes Instruites",
+        "tags": [
+          "Inclusion",
+          "Observation",
+          "Dialogue Collaboratif"
+        ]
+      }
+    ]
+  },
+  "eventsPage": {
+    "title": "ÉVÉNEMENTS",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbEvents": "Événements",
+    "learnMore": "En Savoir Plus",
+    "items": [
+      {
+        "id": 1,
+        "title": "Levanta — Projet Résilience",
+        "date": "15 Mai 2025",
+        "location": "Luanda, Angola",
+        "image": "/assets/events/levanta.png"
+      },
+      {
+        "id": 2,
+        "title": "1ère Rencontre des Femmes Instruites à Lisbonne",
+        "date": "20 Mars 2025",
+        "location": "Lisbonne, Portugal",
+        "image": "/assets/news/portugal/1.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Programme d'Inclusion et de Coopération Solidaire",
+        "date": "10 Février 2025",
+        "location": "Luanda, Angola",
+        "image": "/assets/news/aadimd/1.jpg"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Transformer le monde ",
+    "title2": "commence par ",
+    "title3": "instruire les femmes.",
+    "subtitle": "Rejoignez-nous et aidez-nous à aider",
+    "learn": "Vous êtes entrepreneur et souhaitez en apprendre davantage sur l’entrepreneuriat, la motivation et le leadership.",
+    "learnBtn": "Apprendre"
+  },
+  "association": {
+    "title": "L’Association",
+    "paragraph1": "L’Association Femmes Instruites (AMI) est une organisation humanitaire, philanthropique, à but non lucratif, apolitique et non gouvernementale, créée en 2014 comme un mouvement social pour l’éducation et la résilience des femmes.",
+    "paragraph2": "Depuis lors, nous intervenons dans les communautés, les marchés, les écoles et les prisons, atteignant des milliers de femmes et de familles en Angola. En 2024, l’association a été légalement constituée, consolidant sa mission et élargissant sa capacité d’action.",
+    "paragraph3": "Aujourd’hui, l’AMI s’affirme comme un véritable outil de transformation, œuvrant pour le développement émotionnel, personnel, social et professionnel, aidant les femmes à revaloriser la douleur, à renforcer les valeurs éthiques et civiques, et à prendre conscience de leur valeur et de leur objectif."
+  },
+  "projects": {
+    "title": "Ce que nous faisons",
+    "text": "L’AMI se consacre à instruire et à autonomiser les femmes, en alliant formation pratique et travail émotionnel en profondeur.",
+    "bullet1": "- Nous promouvons la résilience émotionnelle, pour transformer la douleur en force.",
+    "bullet2": "- Nous renforçons les valeurs et la citoyenneté, en éveillant la conscience sociale.",
+    "bullet3": "- Nous intervenons dans des contextes vulnérables, en offrant des outils pratiques, émotionnels et sociaux pour une vie pleine de sens.",
+    "bullet4": "- Chaque action de l’AMI est pensée pour être un catalyseur de changement, transformant la fragilité en force et les défis en nouvelles opportunités."
+  },
+  "whoWeAre": {
+    "title": "À la recherche d’une opportunité d’emploi ?",
+    "text": "L’un des objectifs de l’Association est de vous aider à vous rapprocher de ceux qui recrutent en ce moment. Cliquez ici et laissez votre besoin d’emploi atteindre ceux qui peuvent vous aider.",
+    "button": "Voir Plus"
+  },
+  "testimonials": {
+    "title": "Ce que les gens disent",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre email",
+    "testimonyPlaceholder": "Écrivez votre témoignage...",
+    "add": "Ajouter un témoignage"
+  },
+  "community": {
+    "title": "COMMUNAUTÉ",
+    "paragraph": "Notre communauté est faite d'histoires de dépassement de soi, d'unité et de transformation. En plus de dix ans d'existence, AMI a touché plus de 200.000 femmes dans différents contextes marchés, prisons, écoles et communautés, répandant résilience et espoir en Angola et au-delà. Chaque chiffre reflète des vies touchées et des rêves reconstruits.",
+    "stats": {
+      "people": "Nombre de personnes impactées",
+      "country": "Pays impacté",
+      "years": "Années d'activité",
+      "team": "Taille de l'équipe"
+    }
+  },
+  "footer": {
+    "about": "Plus de 200 000 femmes instruites. Une association à but non lucratif dirigée par la Présidente Iracelma Almeida",
+    "company": "L’Association",
+    "companyLink1": "Qui Nous Sommes",
+    "companyLink2": "Galerie",
+    "companyLink3": "Actualités",
+    "companyLink4": "Contacts",
+    "categories": "Contacts",
+    "inferiror": "Association des Femmes Instruites. Tous droits réservés."
+  }
+}
