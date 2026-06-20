@@ -1,0 +1,198 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Equipa",
+    "events": "Eventos",
+    "news": "Notícias",
+    "gallery": "Galeria",
+    "contact": "Contacto",
+    "language": "Português"
+  },
+  "galleryPage": {
+    "title": "GALERIA",
+    "breadcrumbHome": "HOME",
+    "breadcrumbGallery": "Galeria",
+    "imageAlt": "Imagem ampliada"
+  },
+  "gallery": [
+    {
+      "id": 2,
+      "title": "Isto vai te levar para outra dimensão. Força…"
+    },
+    {
+      "id": 6,
+      "title": "Projecto Resiliência: O Caminho para a Superação"
+    },
+    {
+      "id": 7,
+      "title": "Organização da Mulher Angolana (OMA)"
+    },
+    {
+      "id": 8,
+      "title": "Um lugar onde muitos viram erro, mas nós vimos possibilidade"
+    },
+    {
+      "id": 9,
+      "title": "Quando cuidamos de uma criança, cuidamos do futuro de todos nós"
+    }
+  ],
+  "contact": {
+    "bannerTitle": "Contato",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contato",
+    "cards": {
+      "phone": "Telefone",
+      "whatsapp": "WhatsApp",
+      "email": "E-mail",
+      "location": "Localização",
+      "address": "Urbanização Boa Vida, Casa 98\nLuanda, Angola"
+    },
+    "formTitle": "Vamos conversar?",
+    "formDescription": "Entre em contato conosco e envie as suas dúvidas. Temos certeza de que teremos a solução certa para você.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "O seu e-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Digite o assunto",
+      "message": "Mensagem",
+      "messagePlaceholder": "A sua mensagem",
+      "button": "Enviar Mensagem"
+    }
+  },
+  "news": {
+    "breadcrumbHome": "Home",
+    "breadcrumbNews": "Notícias",
+    "author": "Autor",
+    "authorLabel": "Autor",
+    "overview": "Visão Geral",
+    "otherNews": "Outras notícias que podem interessar",
+    "readArticle": "Ler artigo →",
+    "newsletterTitle": "Fique por dentro! Inscreva-se na nossa newsletter",
+    "newsletterPlaceholder": "Digite seu e-mail",
+    "newsletterButton": "Enviar",
+    "notFound": "Notícia não encontrada.",
+    "extraText": "Além disso, este artigo destaca a importância do setor para o desenvolvimento sustentável e o impacto positivo na comunidade local.",
+    "items": [
+      {
+        "id": 1,
+        "title": "1.º Encontro das Mulheres Instruídas em Lisboa",
+        "description": "Levamos o pano Samakaka a Lisboa 🇵🇹. Não como adorno, mas como símbolo. Um pedaço da nossa história, da nossa identidade e da força das Mulheres Instruídas. E ali, longe de casa, vimos algo que tocou profundamente os nossos corações: as mulheres de outras culturas a receberem aquele pano com encanto, respeito e admiração. Foi mais do que um brinde foi um abraço entre continentes. Foi a nossa Angola, com toda a sua ancestralidade, a ser acolhida com beleza e reverência. Cada olhar maravilhado diante da Samakaka era como uma semente lançada ao vento, espalhando a força de uma cultura que resiste, que ensina e que inspira. Ver o nosso pano nas mãos de outras mulheres mostrou-me que quando nos honramos, o mundo aprende a honrar-nos também. O Samakaka não falou só de nós falou de todas as mulheres que carregam nas suas raízes uma história que merece ser contada, reconhecida e celebrada. Não era apenas tecido. Era memória, era força, era dignidade em forma de cor.E naquele momento, compreendi: ser uma Mulher Instruída é também saber levar consigo, com orgulho, o que nos torna únicas e oferecer isso ao mundo como um presente de valor incalculável.",
+        "category": "Cultura",
+        "author": "Associação Mulheres Instruídas",
+        "tags": [
+          "Cultura",
+          "Portugal",
+          "Samakaka"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Um lugar onde muitos viram erro, mas nós vimos possibilidade.",
+        "description": "Levar instrução a uma cadeia é levar palavras, escuta, empatia e ferramentas para recomeçar. Porque acreditamos que a transformação não escolhe lugar ela começa onde houver uma alma disposta a ouvir, a refletir, a mudar. Para nós, da Associação Mulheres Instruídas, entrar num estabelecimento prisional não é apenas um acto de visita é um compromisso com a inclusão social, com a reinserção humana, com a restituição da dignidade. Acreditamos que mesmo atrás das grades, a mente pode ser liberta. E quando a consciência desperta, nasce um novo caminho. Cada pessoa que ali ouvimos não é apenas um número ou uma sentença é uma história que ainda pode ser ressignificada. Porque enquanto há vida, há recomeço. E onde há instrução, há luz. Instruir é reacender a esperança. E é por isso que estamos aqui.",
+        "category": "Transformação",
+        "author": "Associação Mulheres Instruídas",
+        "tags": [
+          "Transformação",
+          "Inclusão Social"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Visita de Constatação e Cooperação Solidária",
+        "description": "A nossa presidente realizou uma visita de constatação à Associação Direitos e Inclusão das Mulheres com Deficiência, com o objectivo de escutar, compreender e levantar dados sobre a realidade vivida pelas mulheres que integram esta organização. Durante o encontro, que contou com a presença das duas presidentes, foram abordadas as principais dificuldades enfrentadas pela associação, incluindo desafios estruturais, sociais e de inclusão. A visita teve como propósito não apenas a observação, mas também a abertura de um diálogo colaborativo para, juntas, encontrarmos caminhos concretos, partilharmos forças e unirmos energias na construção de soluções eficazes e duradouras. Acreditamos que quando mulheres se unem com propósito e empatia, é possível transformar realidades e garantir que nenhuma mulher seja deixada para trás, independentemente da sua condição física ou social.",
+        "category": "Inclusão",
+        "author": "Associação Mulheres Instruídas",
+        "tags": [
+          "Inclusão",
+          "Observação",
+          "Diálogo Colaborativo"
+        ]
+      }
+    ]
+  },
+  "eventsPage": {
+    "title": "EVENTOS",
+    "breadcrumbHome": "Home",
+    "breadcrumbEvents": "Eventos",
+    "learnMore": "Saber Mais",
+    "items": [
+      {
+        "id": 1,
+        "title": "Levanta — Projecto Resiliência",
+        "date": "15 Maio 2025",
+        "location": "Luanda, Angola",
+        "image": "/assets/events/levanta.png"
+      },
+      {
+        "id": 2,
+        "title": "1.º Encontro das Mulheres Instruídas em Lisboa",
+        "date": "20 Março 2025",
+        "location": "Lisboa, Portugal",
+        "image": "/assets/news/portugal/1.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Programa de Inclusão e Cooperação Solidária",
+        "date": "10 Fevereiro 2025",
+        "location": "Luanda, Angola",
+        "image": "/assets/news/aadimd/1.jpg"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Transformar o mundo ",
+    "title2": "começa por ",
+    "title3": "instruir mulheres.",
+    "subtitle": "Junte-se a nós e nos ajude a ajudar",
+    "learn": "É uma empreendedora e deseja aprender sobre empreededorismo, motivação e liderança.",
+    "learnBtn": "Aprender"
+  },
+  "association": {
+    "title": "A Associação",
+    "paragraph1": "A Associação Mulheres Instruídas (AMI) é uma organização humanitária, filantrópica, sem fins lucrativos, apartidária e não governamental, criada em 2014 como um movimento social pela educação e resiliência feminina.",
+    "paragraph2": "Desde então, atuamos em comunidades, mercados, escolas e prisões, alcançando milhares de mulheres e famílias em Angola. Em 2024, a associação foi legalmente constituída, solidificando a sua missão e ampliando a sua capacidade de atuação.",
+    "paragraph3": "Hoje, a AMI afirma-se como uma verdadeira ferramenta de transformação, promovendo o desenvolvimento emocional, pessoal, social e profissional, ajudando as mulheres a ressignificar a dor, fortalecer valores éticos e cívicos, e a tomar consciência do seu valor e propósito."
+  },
+  "projects": {
+    "title": "O que fazemos",
+    "text": "A AMI dedica-se a instruir e capacitar mulheres, unindo formação prática e trabalho emocional profundo.",
+    "bullet1": "- Promovemos resiliência emocional, para transformar dor em força.",
+    "bullet2": "- Reforçamos valores e cidadania, despertando consciência social.",
+    "bullet3": "- Atuamos em contextos vulneráveis, oferecendo ferramentas práticas, emocionais e sociais para uma vida com propósito.",
+    "bullet4": "- Cada ação da AMI é pensada para ser um catalisador de mudança, transformando fragilidade em força e desafios em novas oportunidades."
+  },
+  "whoWeAre": {
+    "title": "Em busca de uma oportunidade de trabalho?",
+    "text": "Um dos objetivos da Associação é ajudar você a se aproximar de quem está contratando neste momento. Clique aqui e deixe sua necessidade de emprego chegar a quem pode ajudar.",
+    "button": "Se Cadastrar"
+  },
+  "testimonials": {
+    "title": "O que as pessoas dizem",
+    "namePlaceholder": "O seu nome",
+    "emailPlaceholder": "O seu email",
+    "testimonyPlaceholder": "Escreva o seu testemunho...",
+    "add": "Adicionar Testemunho"
+  },
+  "community": {
+    "title": "COMUNIDADE",
+    "paragraph": "A nossa comunidade é feita de histórias de superação, união e transformação. Em mais de 10 anos de atuação, a AMI já impactou mais de 200.000 mulheres em diferentes contextos mercados, cadeias, escolas e comunidades espalhando resiliência e esperança em Angola e além-fronteiras. Cada número reflete vidas tocadas e sonhos reconstruídos.",
+    "stats": {
+      "people": "Número de pessoas impactadas",
+      "country": "Países impactados",
+      "years": "Anos de actividade",
+      "team": "Tamanho da equipa"
+    }
+  },
+  "footer": {
+    "about": "Mais de 200 mil mulheres Instruídas. Uma associação sem fins lucrativos liderada pela PCA Iracelma Almeida",
+    "company": "A Associação",
+    "companyLink1": "Quem Somos",
+    "companyLink2": "Galeria",
+    "companyLink3": "Notícias",
+    "companyLink4": "Contactos",
+    "categories": "Contactos",
+    "inferiror": "Associação de Mulheres Instruídas. Todos os direitos reservados."
+  }
+}

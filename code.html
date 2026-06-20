@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-br"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-container": "#5b6575",
+                    "on-primary-fixed": "#3d0024",
+                    "secondary-fixed-dim": "#bdc7d9",
+                    "tertiary-container": "#6e7583",
+                    "surface-container-highest": "#d9e3f6",
+                    "tertiary-fixed-dim": "#c0c7d6",
+                    "primary": "#b20072",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed": "#121c29",
+                    "on-surface": "#121c29",
+                    "surface-bright": "#f8f9ff",
+                    "surface-container-high": "#dee9fc",
+                    "tertiary": "#555c6a",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#fefcff",
+                    "on-tertiary-fixed-variant": "#404754",
+                    "background": "#f8f9ff",
+                    "outline": "#8c6f7a",
+                    "error-container": "#ffdad6",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed": "#ffd8e6",
+                    "surface-container-low": "#eff4ff",
+                    "error": "#ba1a1a",
+                    "on-primary-container": "#fffbff",
+                    "on-secondary-fixed-variant": "#3d4756",
+                    "surface-tint": "#b60075",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container": "#e6eeff",
+                    "primary-fixed-dim": "#ffafd1",
+                    "on-primary-fixed-variant": "#8b0058",
+                    "tertiary-fixed": "#dce2f3",
+                    "on-surface-variant": "#59404a",
+                    "on-background": "#121c29",
+                    "secondary": "#555f6f",
+                    "inverse-on-surface": "#eaf1ff",
+                    "on-secondary": "#ffffff",
+                    "inverse-primary": "#ffafd1",
+                    "on-tertiary-fixed": "#151c27",
+                    "on-primary": "#ffffff",
+                    "inverse-surface": "#27313f",
+                    "secondary-fixed": "#d9e3f6",
+                    "secondary-container": "#d9e3f6",
+                    "primary-container": "#dc0e8f",
+                    "surface-variant": "#d9e3f6",
+                    "outline-variant": "#e0bdca",
+                    "surface-dim": "#d0dbed",
+                    "surface": "#f8f9ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body { font-family: 'Inter', sans-serif; }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(20px);
+      }
+    </style>
+</head>
+<body class="bg-surface">
+<!-- SideNavBar (Authority Source: JSON) -->
+<aside class="h-screen w-64 fixed left-0 top-0 z-50 bg-[#eff4ff] dark:bg-slate-900 flex flex-col py-8 font-inter text-sm">
+<div class="px-8 mb-10">
+<h1 class="text-lg font-black uppercase text-[#b20072]">AMI Portal</h1>
+<p class="text-[10px] tracking-widest text-slate-500 uppercase mt-1">Empathetic Architect</p>
+</div>
+<nav class="flex-1">
+<ul class="space-y-1">
+<li>
+<a class="text-slate-500 dark:text-slate-400 px-6 py-3 hover:text-[#b20072] transition-all ease-in-out duration-300 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span>Overview</span>
+</a>
+</li>
+<li>
+<a class="bg-white dark:bg-slate-800 text-[#b20072] dark:text-[#dc0e8f] font-bold rounded-l-full ml-4 shadow-sm px-6 py-3 transition-all ease-in-out duration-300 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined" data-icon="article">article</span>
+<span>News</span>
+</a>
+</li>
+<li>
+<a class="text-slate-500 dark:text-slate-400 px-6 py-3 hover:text-[#b20072] transition-all ease-in-out duration-300 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined" data-icon="movie">movie</span>
+<span>Gallery</span>
+</a>
+</li>
+<li>
+<a class="text-slate-500 dark:text-slate-400 px-6 py-3 hover:text-[#b20072] transition-all ease-in-out duration-300 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span>Reports</span>
+</a>
+</li>
+</ul>
+<div class="px-6 mt-10">
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-white py-3 rounded-xl font-semibold shadow-md active:scale-95 transition-all duration-200 text-xs uppercase tracking-wider">
+                    Create New Impact
+                </button>
+</div>
+</nav>
+<div class="mt-auto border-t border-slate-200/50 dark:border-slate-700/50 pt-6">
+<a class="text-slate-500 dark:text-slate-400 px-6 py-3 hover:text-[#b20072] transition-all ease-in-out duration-300 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+<span>Support</span>
+</a>
+<a class="text-slate-500 dark:text-slate-400 px-6 py-3 hover:text-[#b20072] transition-all ease-in-out duration-300 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span>Sign Out</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 min-h-screen">
+<!-- TopNavBar (Authority Source: JSON) -->
+<header class="fixed top-0 left-64 right-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm dark:shadow-none flex justify-between items-center px-8 py-3 font-inter text-sm tracking-tight">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tighter text-[#b20072] dark:text-[#dc0e8f]">AMI Management</span>
+<div class="relative group">
+<span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400">
+<span class="material-symbols-outlined text-lg" data-icon="search">search</span>
+</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-4 w-64 focus:ring-2 focus:ring-primary/20 text-xs" placeholder="Procurar notícias..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-5">
+<button class="text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 p-2 rounded-full transition-colors active:scale-95">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 p-2 rounded-full transition-colors active:scale-95">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+<div class="h-8 w-8 rounded-full overflow-hidden border-2 border-primary-fixed ml-2">
+<img alt="User profile administrator" data-alt="professional portrait of a confident woman administrator in a modern office setting with soft background bokeh" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCI8ZqHcFzwuNN-lt9Bk0aDZG6693EokRpMzfG4JIqk8ttJgaCHCP2YfoGfg0ILzqQsXkqQKHKSYsojo_TjoNsqbbhSzT1XKzUDtXK3DW0XuSe_eBoAwxKF62nXuRhtYndyKwNRqiL13aoWiRNSA92iEwF443mUgmVAJpNl02-KlmnaPvBWxaXh1cryv6CRXGXHxFC9WQHiv4P-zGSHlod6-t2OGlbK8qhxPbmezZufMDw3NvHQ43VSD3JKXpAE5jHJBCxmRAWnl1WY"/>
+</div>
+</div>
+</header>
+<!-- Form Section -->
+<div class="pt-24 pb-16 px-12 max-w-6xl mx-auto">
+<div class="mb-12">
+<nav class="flex mb-4 text-[10px] uppercase tracking-widest text-slate-400 font-bold">
+<span class="hover:text-primary cursor-pointer">Notícias</span>
+<span class="mx-2">/</span>
+<span class="text-on-surface">Criar Nova Notícia</span>
+</nav>
+<h2 class="text-4xl font-extrabold text-on-surface tracking-tight leading-none">Redigir Impacto</h2>
+<p class="text-on-secondary-container mt-3 text-lg font-light max-w-2xl">Transforme dados humanitários em narrativas poderosas. Cada artigo é um passo em direção à transparência e excelência.</p>
+</div>
+<form class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<!-- Main Form Column -->
+<div class="lg:col-span-2 space-y-10">
+<!-- Title Input -->
+<div class="group">
+<label class="block text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-2">Título da Notícia</label>
+<input class="w-full bg-surface-container-low border-b-2 border-outline-variant/30 focus:border-primary border-t-0 border-x-0 px-0 py-4 text-2xl font-semibold placeholder:text-slate-300 focus:ring-0 transition-all bg-transparent" placeholder="Insira um título impactante..." type="text"/>
+</div>
+<!-- Category & Date Row -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div>
+<label class="block text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-2">Categoria</label>
+<select class="w-full bg-surface-container-low border-b-2 border-outline-variant/30 focus:border-primary border-t-0 border-x-0 px-0 py-3 text-sm focus:ring-0 transition-all bg-transparent cursor-pointer">
+<option value="saude">Saúde</option>
+<option value="educacao">Educação</option>
+<option value="emergencia">Emergência</option>
+<option value="social">Social</option>
+</select>
+</div>
+<div>
+<label class="block text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-2">Data de Publicação</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low border-b-2 border-outline-variant/30 focus:border-primary border-t-0 border-x-0 px-0 py-3 text-sm focus:ring-0 transition-all bg-transparent" type="date"/>
+</div>
+</div>
+</div>
+<!-- Article Content (Rich Text Simulation) -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm">
+<label class="block text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-4">Conteúdo do Artigo</label>
+<div class="flex gap-2 mb-4 border-b border-surface-container-high pb-4">
+<button class="p-2 hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-lg">format_bold</span></button>
+<button class="p-2 hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-lg">format_italic</span></button>
+<button class="p-2 hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-lg">format_list_bulleted</span></button>
+<button class="p-2 hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-lg">link</span></button>
+<div class="w-px h-6 bg-surface-container-high mx-2"></div>
+<button class="p-2 hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-lg">format_quote</span></button>
+<button class="p-2 hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-lg">image</span></button>
+</div>
+<textarea class="w-full border-none focus:ring-0 p-0 text-on-surface leading-relaxed placeholder:text-slate-300 resize-none" placeholder="Comece a escrever a história..." rows="12"></textarea>
+</div>
+</div>
+<!-- Sidebar Column -->
+<div class="space-y-8">
+<!-- Featured Image Upload -->
+<div class="bg-surface-container-low rounded-2xl p-6 border-2 border-dashed border-outline-variant/20 flex flex-col items-center justify-center text-center group hover:border-primary/40 transition-colors cursor-pointer min-h-[300px]">
+<div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center mb-4 text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="cloud_upload">cloud_upload</span>
+</div>
+<h4 class="text-sm font-bold text-on-surface">Imagem de Destaque</h4>
+<p class="text-xs text-on-secondary-container mt-2">Arraste uma imagem de alta resolução (Min. 1200x630px)</p>
+<button class="mt-6 text-[10px] uppercase font-bold text-primary tracking-widest px-4 py-2 bg-white rounded-full shadow-sm" type="button">Selecionar Arquivo</button>
+</div>
+<!-- Status Selection -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm">
+<label class="block text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-6">Estado da Publicação</label>
+<div class="space-y-4">
+<label class="flex items-center gap-4 cursor-pointer group">
+<div class="relative flex items-center">
+<input checked="" class="w-5 h-5 text-primary border-outline-variant focus:ring-primary ring-offset-2" name="status" type="radio" value="publicado"/>
+</div>
+<div>
+<span class="block text-sm font-bold text-on-surface group-hover:text-primary transition-colors">Publicado</span>
+<span class="block text-[10px] text-on-secondary-container">Visível imediatamente no portal.</span>
+</div>
+</label>
+<label class="flex items-center gap-4 cursor-pointer group">
+<div class="relative flex items-center">
+<input class="w-5 h-5 text-primary border-outline-variant focus:ring-primary ring-offset-2" name="status" type="radio" value="rascunho"/>
+</div>
+<div>
+<span class="block text-sm font-bold text-on-surface group-hover:text-primary transition-colors">Rascunho</span>
+<span class="block text-[10px] text-on-secondary-container">Salvar para edição posterior.</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-col gap-4 pt-4">
+<button class="w-full bg-gradient-to-r from-[#b20072] to-[#dc0e8f] text-white py-4 rounded-xl font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all active:scale-95 flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-xl" data-icon="send">send</span>
+                            Publicar Artigo
+                        </button>
+<button class="w-full bg-white border border-outline-variant/30 text-on-surface py-4 rounded-xl font-bold hover:bg-slate-50 transition-all active:scale-95" type="button">
+                            Cancelar
+                        </button>
+</div>
+<!-- Editorial Tip Card -->
+<div class="bg-gradient-to-br from-primary-fixed to-secondary-fixed p-6 rounded-2xl relative overflow-hidden">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary mb-2" data-icon="lightbulb">lightbulb</span>
+<h5 class="text-sm font-extrabold text-on-primary-fixed mb-1">Dica de Editor</h5>
+<p class="text-xs text-on-primary-fixed-variant leading-relaxed">Notícias com imagens reais do campo têm 85% mais engajamento emocional dos doadores.</p>
+</div>
+<div class="absolute -right-4 -bottom-4 opacity-10">
+<span class="material-symbols-outlined text-8xl" data-icon="auto_awesome">auto_awesome</span>
+</div>
+</div>
+</div>
+</form>
+</div>
+</main>
+<!-- Visual Polish: Floating Impact Metric Overlay (Asymmetric UI element) -->
+<div class="fixed bottom-8 right-8 pointer-events-none">
+<div class="glass-effect p-6 rounded-3xl shadow-2xl border border-white/40 flex items-center gap-6 animate-fade-in pointer-events-auto">
+<div class="flex flex-col">
+<span class="text-3xl font-black text-primary leading-none">2.4M</span>
+<span class="text-[9px] uppercase tracking-widest font-bold text-slate-500 mt-1">Alcance Estimado</span>
+</div>
+<div class="h-10 w-px bg-slate-200"></div>
+<div class="flex -space-x-3">
+<img alt="Volunteer" class="w-10 h-10 rounded-full border-2 border-white" data-alt="close-up portrait of a smiling young woman volunteer in a colorful outdoor setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvjN-fFBO6gctRXUeODbt5sRIBakMZVQCcfXO-tVfm_TSNdtgGK2A3eRRsH0HJQO4S_mzGgWoTZr9sI1hlwwK77pr2B4SEXkftWssl366roCQI2ECiS4IYDZZIrh9hvIusnJsjdb3-durUVW_T6csmc2BPXiFAkSrvwDggLIQzTo8N23t-Az3DTibvf4iE_Kn621VhWaPqIHOp5ckwHpi905ho2eccUe_NKzEEd18CpXIARByOp_H5dSWdjljjDvF3xGmAPFwqZtGj"/>
+<img alt="Volunteer" class="w-10 h-10 rounded-full border-2 border-white" data-alt="professional headshot of a friendly middle-aged man volunteer with warm sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYrnNEPM78NnQMf5Rsui04K-xl2WhnpSOq43nyLzWmXWJwT7apuIEvMIu65mT2Cs4mVdxoyP2KUrwzGTZkcC-aMqIGBAJ_XDzM5i-Wd7bnJcil6BxlO7LpIPQSOgOsRsgMEMIepR1mhdQCwocFdbTKSHPglS3mjeQyMbt5j2aFUThTUZZwWizqrxLuoxFY8VZAe5rk-HQ55nsfymaOU3KBkt6y3fV8K4haW2cfd48obp3sAZaQO63exAslsujx_p5KS6fwFTpeTtnK"/>
+<div class="w-10 h-10 rounded-full border-2 border-white bg-primary-fixed flex items-center justify-center text-[10px] font-bold text-primary">+12</div>
+</div>
+</div>
+</div>
+</body></html>
