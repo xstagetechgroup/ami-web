@@ -1,6 +1,4 @@
 import { ReactNode } from "react";
-
-// Definição do tipo para cada notícia
 export interface NewsSingleItem {
   id: number;
   title: string;
